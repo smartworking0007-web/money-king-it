@@ -11,12 +11,14 @@ const footerData = {
     { label: "Blogs & News", href: "/blogs" },
     { label: "Contact Us", href: "/contact" },
   ],
+
   quickLinks: [
     { label: "Home", href: "/" },
     { label: "FAQs", href: "/faqs" },
     { label: "Support Center", href: "/support-center" },
     { label: "Careers", href: "/careers" },
   ],
+
   legal: [
     { label: "Privacy Policy", href: "/privacy-policy" },
     { label: "Terms & Conditions", href: "/terms" },
@@ -32,7 +34,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-12 mb-16">
           {/* Brand & Contact */}
           <div className="sm:col-span-2 lg:col-span-2 space-y-6">
-            <div className="flex items-center gap-1 text-3xl font-bold">
+            <div className="flex items-center gap-1 text-3xl f ont-bold">
               <span className="text-white">Money</span>
               <span className="text-[#4DB6AC]">King</span>
             </div>
@@ -58,6 +60,7 @@ export default function Footer() {
           </div>
 
           {/* Links */}
+
           {[
             { title: "Company", links: footerData.company },
             { title: "Quick Links", links: footerData.quickLinks },
@@ -116,7 +119,7 @@ export default function Footer() {
             <Link
               href="https://www.youtube.com/@moneykingf"
               target="_blank"
-              className="hover:text-[#4DB6AC] transition-all"
+              className="hover:text-[#4DB6AC] transition-all" 
             >
               <FaYoutube size={22} />
             </Link>
@@ -129,7 +132,7 @@ export default function Footer() {
             </Link>
           </div>
         </div>
-      </div> 
+      </div>
     </footer>
   );
 }
