@@ -26,7 +26,7 @@ export default function ComingSoon() {
           <div
             key={i}
             className="p-8 bg-white rounded-3xl border border-zinc-200 hover:border-[#2D6A6A] transition-all group shadow-sm"
-          >
+          > 
             <c.icon className="w-10 h-10 text-[#2D6A6A] mb-6 group-hover:scale-110 transition-transform" />
             <h4 className="font-black text-[#0F172A]">{c.title}</h4>
           </div>
