@@ -9,7 +9,7 @@
   --font-mono: 'Fira Code', monospace;              
 }
 
-@layer base {                     
+@layer base {                      
   body {       
     @apply font-sans antialiased bg-background text-foreground;               
   }                                 
@@ -22,10 +22,10 @@
 }
 
 @theme inline {
-  --font-heading: var(--font-sans);                         
-  --font-sans: var(--font-sans);                   
-  --color-sidebar-ring: var(--sidebar-ring);                 
-  --color-sidebar-border: var(--sidebar-border);                  
+  --font-heading: var(--font-sans);                                         
+  --font-sans: var(--font-sans);                                   
+  --color-sidebar-ring: var(--sidebar-ring);                                 
+  --color-sidebar-border: var(--sidebar-border);                                  
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);         
   --color-sidebar-accent: var(--sidebar-accent);
   --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);      
@@ -36,7 +36,7 @@
   --color-chart-4: var(--chart-4);      
   --color-chart-3: var(--chart-3);                   
   --color-chart-2: var(--chart-2);
-  --color-chart-1: var(--chart-1);                       
+  --color-chart-1: var(--chart-1);                                      
   --color-ring: var(--ring);
   --color-input: var(--input);
   --color-border: var(--border);
@@ -55,13 +55,21 @@
   --color-card: var(--card);
   --color-foreground: var(--foreground);
   --color-background: var(--background);
-  --radius-sm: calc(var(--radius) * 0.6);                                                               
-  --radius-md: calc(var(--radius) * 0.8);                                                    
+  --radius-sm: calc(var(--radius) * 0.6);                                                                                                               
+  --radius-md: calc(var(--radius) * 0.8);                                                                                                   
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) * 1.4);                
-  --radius-2xl: calc(var(--radius) * 1.8);                             
-  --radius-3xl: calc(var(--radius) * 2.2);                                
-  --radius-4xl: calc(var(--radius) * 2.6);                                  
+  --radius-2xl: calc(var(--radius) * 1.8);                                                             
+  --radius-3xl: calc(var(--radius) * 2.2);                                                                
+  --radius-4xl: calc(var(--radius) * 2.6);                                                                   
+
+  /* ---  TAILWIND V4 INFINITE CAROUSEL ANIMATION CONFIG --- */
+  --animate-infinite-scroll: infinite-scroll 45s linear infinite;
+
+  @keyframes infinite-scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
 }
 
 :root {
