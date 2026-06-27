@@ -52,7 +52,7 @@ export default function GrowthSection() {
           <div className="flex justify-center">
             <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden shadow-2xl border-4 border-emerald-50">
               <Image
-                src="/image_88fa6c.jpg"
+                src="/hero/social-beat.jpeg"
                 alt="Growth Strategy"
                 fill
                 className="object-cover"

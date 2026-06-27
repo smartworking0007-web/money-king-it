@@ -45,30 +45,37 @@ export default function IndustriesSection() {
           </Text>
         </div>
 
-        {/* Static Industries Grid */}
+        {/* Dynamic Industries Grid */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 md:gap-5">
           {industries.map((item, index) => (
             <div
               key={index}
               className="
-                bg-linear-to-br! from-[#4A7A7A] to-[#2D6A6A]
+                group
+                bg-linear-to-br from-[#4A7A7A] to-[#2D6A6A]
                 text-white 
-                py-4 
-                px-2 
-                rounded-lg 
-                shadow-md 
+                py-6 px-3 
+                rounded-xl 
+                shadow-lg
                 flex 
                 items-center 
                 justify-center 
                 border border-white/10
                 transition-all
-                duration-300
-                hover:brightness-110
+                duration-500
+                ease-out
+                /* Hover Effects */
+                hover:-translate-y-3
+                hover:shadow-2xl
+                hover:shadow-[#2D6A6A]/50
+                /* Flicker/Shimmer Effect on hover */
+                hover:animate-pulse
+                cursor-pointer
               "
             >
               <Text
                 variant="label"
-                className="text-white! text-[10px]! md:text-xs! font-bold tracking-wider! text-center"
+                className="text-white! text-[10px]! md:text-xs! font-bold tracking-wider! text-center uppercase"
               >
                 {item}
               </Text>
