@@ -13,6 +13,7 @@ import FAQSection from "@/components/sections/FAQSection";
 
 
 
+
 export default function Home() {
   return (
     <main className="flex flex-col overflow-x-hidden w-full relative min-h-screen bg-[#040809]">
