@@ -2,13 +2,13 @@
 
 import React from "react";
 import Image from "next/image";
-import Text from "@/components/ui/Text"; 
+import Text from "@/components/ui/Text";
 
 const leftPoints = [
   "Performance Marketing with a Data-Driven Approach",
   "In-depth Brand & Creative Strategy for Best Outcomes",
   "Organic Traffic Growth",
-  "Tech to Scale and Automate", 
+  "Tech to Scale and Automate",
 ];
 
 const rightPoints = [
@@ -22,31 +22,35 @@ export default function GrowthSection() {
   return (
     <section className="py-16 md:py-24 px-4 bg-white">
       <div className="max-w-7xl mx-auto">
-        
         {/* Header Section */}
         <div className="text-center mb-16">
           <Text variant="h2" className="mb-4 text-zinc-950">
             About <span className="text-emerald-600">Money King IT</span>
           </Text>
-          <Text variant="body" className="max-w-3xl mx-auto mb-8 text-zinc-600"> 
-            Learn how Money King IT drives business expansion. As premier digital growth partners, 
-            we deliver data-driven performance marketing, SEO, and robust tech scaling solutions. 
+          <Text variant="body" className="max-w-3xl mx-auto mb-8 text-zinc-600">
+            Learn how Money King IT drives business expansion. As premier
+            digital growth partners, we deliver data-driven performance
+            marketing, SEO, and robust tech scaling solutions.
           </Text>
           <Text variant="h4" className="text-emerald-600 font-bold">
             We are growth partners that drive results
           </Text>
         </div>
         {/* Content Layout */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">       
-          
-          {/* Left Column */}                   
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
+          {/* Left Column */}
           <div className="space-y-8">
             {leftPoints.map((point, i) => (
-              <div key={i} className="border-b border-dashed border-zinc-300 pb-4">
-                <Text variant="h5" className="text-zinc-900 leading-snug">{point}</Text>
-              </div>      
-            ))}       
-          </div>         
+              <div
+                key={i}
+                className="border-b border-dashed border-zinc-300 pb-4"
+              >
+                <Text variant="h5" className="text-zinc-900 leading-snug">
+                  {point}
+                </Text>
+              </div>
+            ))}
+          </div>
 
           {/* Middle Image - "image_88fa6c.jpg" */}
           <div className="flex justify-center">
@@ -55,16 +59,23 @@ export default function GrowthSection() {
                 src="/hero/social-beat.jpeg"
                 alt="Growth Strategy"
                 fill
+                // Yeh line add karein:
+                sizes="(max-width: 768px) 288px, 384px"
                 className="object-cover"
               />
             </div>
           </div>
 
           {/* Right Column */}
-          <div className="space-y-8"> 
+          <div className="space-y-8">
             {rightPoints.map((point, i) => (
-              <div key={i} className="border-b border-dashed border-zinc-300 pb-4">
-                <Text variant="h5" className="text-zinc-900 leading-snug">{point}</Text>
+              <div
+                key={i}
+                className="border-b border-dashed border-zinc-300 pb-4"
+              >
+                <Text variant="h5" className="text-zinc-900 leading-snug">
+                  {point}
+                </Text>
               </div>
             ))}
           </div>

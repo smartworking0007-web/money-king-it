@@ -1,13 +1,12 @@
 // src/components/layout/Hero.tsx
 
 "use client";
-
+import Link from "next/link";
 import Image from "next/image";
 
 export default function Hero() {
   return (
     <section className="relative w-full min-h-[75vh] md:min-h-screen bg-black overflow-x-hidden">
-      
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
@@ -25,9 +24,7 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 flex min-h-[75vh] md:min-h-screen flex-col items-center justify-center text-center px-6 py-16">
-        
         <div className="max-w-5xl">
-          
           <h2 className="text-[#00D094] text-xs md:text-2xl font-bold uppercase tracking-[0.2em] mb-3">
             Accelerate Your Business
           </h2>
@@ -42,11 +39,12 @@ export default function Hero() {
           </p>
 
           <div className="mt-8 md:mt-12">
-            <button className="bg-[#00D094] text-black px-8 py-3 md:px-12 md:py-5 rounded-full font-bold text-sm md:text-lg hover:bg-[#00b07d] hover:scale-105 active:scale-95 transition-all duration-300 shadow-lg shadow-[#00D094]/20">
-              Get Started
-            </button>
+            <Link href="/contact">
+              <button className="bg-[#00D094] text-black px-8 py-3 md:px-12 md:py-5 rounded-full font-bold text-sm md:text-lg hover:bg-[#00b07d] hover:scale-105 active:scale-95 transition-all duration-300 shadow-lg shadow-[#00D094]/20">
+                Get Started
+              </button>
+            </Link>
           </div>
-
         </div>
       </div>
     </section>
