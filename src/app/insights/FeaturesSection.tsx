@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import { motion } from "framer-motion";
 import {
   BrainCircuit,
@@ -10,12 +9,14 @@ import {
   GitBranch,
 } from "lucide-react";
 
+
 const insights = [
   {
     icon: BrainCircuit,
     title: "AI",
     desc: "Advanced neural networks for predictive analytics.",
   },
+
   {
     icon: Cloud,
     title: "Cloud",
@@ -26,11 +27,13 @@ const insights = [
     title: "Software Eng",
     desc: "Clean, maintainable, and robust codebases.",
   },
+
   {
     icon: ShieldCheck,
     title: "Cyber Security",
     desc: "Proactive defense against modern threats.",
   },
+
   {
     icon: GitBranch,
     title: "DevOps",
@@ -77,3 +80,4 @@ export default function FeaturedInsights() {
     </section>
   );
 }
+

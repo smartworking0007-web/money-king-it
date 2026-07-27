@@ -1,45 +1,97 @@
-// src/app/services/application-programming/project-implementation/page.tsx
-import React from 'react';
-import { Metadata } from 'next';
-import HeroSection from './HeroSection';
-import OverviewSection from './OverviewSection';
-import ServicesGrid from './ServicesGrid';
-import ProcessTimeline from './ProcessTimeline';
-import MethodologySection from './MethodologySection';
-import IndustriesSection from './IndustriesSection';
-import TechnologyStack from './TechnologyStack';
-import BenefitsSection from './BenefitsSection';
-import CaseStudies from './CaseStudies';
-import Testimonials from './Testimonials';
-import FAQSection from './FAQSection';
-import CTASection from './CTASection';
-import ContactSection from './ContactSection';
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import Text from "@/components/ui/Text";
+import { Button } from "@/components/ui/Text";
+import WhyCustomSection from "./WhyCustomSection";
+import CoreValuesSection from "./CoreValuesSection";
+import ProjectWorkflowSection from "./ProjectWorkflowSection";
+import FeatureOverviewSection from "./FeatureOverviewSection";
+import SimpleAndPowerfulSection from "./SimpleAndPowerfulSection";
+import EngagementModelsSection from "./EngagementModelsSection";
+import RealRevenueImpactSection from "./RealRevenueImpactSection";
+import FAQSection from "./FAQSection";
+import TrustedWebsiteDesignHero from "./TrustedWebsiteDesignHero";
 
-export const metadata: Metadata = {
-  title: 'Project Implementation Services | Money King IT',
-  description: 'Enterprise structural software migrations and application rollouts driven by Money King IT.',
-};
-
-export default function ProjectImplementationPage() {
+export default function FundraisingPage() {
   return (
-    <div className="w-full bg-[#E5EBEB] text-zinc-900 flex flex-col pb-24 overflow-x-hidden antialiased">
-      <HeroSection />
-      <div className="w-full max-w-7xl mx-auto px-4 sm:px-8 lg:px-12 flex flex-col gap-28 md:gap-32">
-        <div className="-mt-5 md:-mt-32 relative z-20 w-full">
-        <OverviewSection />
+    <div className="w-full overflow-x-hidden bg-black">
+      {/* Hero Section - Optimized for Mobile & Desktop */}
+      <section className="relative bg-black min-h-auto lg:min-h-screen flex items-center py-30 md:py-30 px-6 md:px-12 lg:px-20">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center w-full">
+          {/* Left Column */}
+          <div className="space-y-6 text-center md:text-left">
+            <Text
+              variant="h2"
+              className="text-white! text-[32px] sm:text-[40px] md:text-[48px] leading-tight"
+            >
+              Seamless Project Implementation & Deployment
+            </Text>
+
+            <Text
+              variant="h4"
+              className="text-gray-300! font-normal text-[15px] md:text-[18px] leading-relaxed"
+            >
+              Looking for expert IT project implementation? We manage complex
+              technical dependencies and infrastructure risks for seamless
+              deployment. Book a consultation today!
+            </Text>
+
+            <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4 pt-4">
+              <Link href="/contact-us" className="w-full sm:w-auto">
+                <Button
+                  variant="primary"
+                  className="bg-emerald-600 hover:bg-emerald-700 w-full sm:w-auto py-3 px-6"
+                >
+                  Book a Consultation →
+                </Button>
+              </Link>
+              <Link href="/contact-us" className="w-full sm:w-auto">
+                <Button
+                  variant="outline"
+                  className="text-white! border-white! hover:bg-white/10 w-full sm:w-auto py-3 px-6"
+                >
+                  Start Project →
+                </Button>
+              </Link>
+            </div>
+          </div>
+
+          {/* Right Column / Image Graphic */}
+          <div className="relative w-full h-70 sm:h-87.5 md:h-112.5 flex items-center justify-center">
+            <Image
+              src="/implementation/hero-graphic.png"
+              alt="Project Implementation Graphic"
+              fill
+              sizes="(max-width: 768px) 100vw, 50vw"
+              className="object-contain"
+              priority
+            />
+
+            <div className="absolute top-[5%] right-[2%] sm:right-[5%] bg-white p-3 sm:p-4 rounded-xl shadow-lg w-36 sm:w-48 z-10">
+              <Text
+                variant="h5"
+                className="text-xs! sm:text-sm! text-zinc-500 mb-1"
+              >
+                Need Attention
+              </Text>
+              <p className="text-zinc-900 font-bold text-xs! sm:text-sm! leading-tight">
+                23 undergiving major gift prospects
+              </p>
+            </div>
+          </div>
         </div>
-        <ServicesGrid />
-        <ProcessTimeline />
-        <MethodologySection />
-        <IndustriesSection /> 
-        <TechnologyStack />
-        <BenefitsSection />
-        <CaseStudies />
-        <Testimonials />
-        <FAQSection />
-        <CTASection />
-        <ContactSection />
-      </div>
+      </section>
+      {/* Subsequent Sections */}
+      <WhyCustomSection />
+      <CoreValuesSection />
+      <ProjectWorkflowSection />
+      <SimpleAndPowerfulSection />
+      <FeatureOverviewSection />
+      <EngagementModelsSection />
+      <RealRevenueImpactSection />
+      <FAQSection />
+      <TrustedWebsiteDesignHero />
     </div>
   );
 }
