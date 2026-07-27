@@ -43,7 +43,7 @@ export default function WhyCustomSection() {
       {/* Background Image Container */}
       <div className="absolute inset-0 z-0 h-full w-full">
         <Image
-          src="/Implementation/2.png"
+          src="/implementation/2.png"
           alt="Background"
           fill
           priority

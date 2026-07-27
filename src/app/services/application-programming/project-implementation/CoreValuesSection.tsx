@@ -88,7 +88,7 @@ export default function CoreValuesSection() {
           {/* Right Side: Tall Feature Image Card with explicit min-height to fix Next.js fill warning */}
           <div className="relative lg:col-span-1 h-full min-h-87.5 sm:min-h-112.5 lg:min-h-full w-full rounded-[32px] overflow-hidden border border-white/10 bg-[#121212]">
             <Image
-              src="/Implementation/3.png"
+              src="/implementation/3.png"
               alt="Core Values Professional"
               fill
               priority
