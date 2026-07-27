@@ -15,16 +15,14 @@ import TrustedWebsiteDesignHero from "./TrustedWebsiteDesignHero";
 
 export default function FundraisingPage() {
   return (
-    <div className="w-full overflow-x-hidden bg-black">
-      {/* Hero Section - Optimized for Mobile & Desktop */}
-      <section className="relative bg-black min-h-auto lg:min-h-screen flex items-center py-30 md:py-30 px-6 md:px-12 lg:px-20">
+    <div className="w-full overflow-x-hidden bg-black text-white">
+      {/* Hero Section */}
+      <section className="relative bg-black min-h-auto lg:min-h-screen flex items-center py-16 md:py-24 px-6 md:px-12 lg:px-20">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center w-full">
+          
           {/* Left Column */}
-          <div className="space-y-6 text-center md:text-left">
-            <Text
-              variant="h2"
-              className="text-white! text-[32px] sm:text-[40px] md:text-[48px] leading-tight"
-            >
+          <div className="space-y-6 text-center md:text-left z-10">
+            <Text variant="h2" className="text-white! text-[32px] sm:text-[40px] md:text-[48px] leading-tight font-extrabold">
               Seamless Project Implementation & Deployment
             </Text>
 
@@ -41,7 +39,7 @@ export default function FundraisingPage() {
               <Link href="/contact-us" className="w-full sm:w-auto">
                 <Button
                   variant="primary"
-                  className="bg-emerald-600 hover:bg-emerald-700 w-full sm:w-auto py-3 px-6"
+                  className="bg-emerald-600 hover:bg-emerald-700 w-full sm:w-auto py-3 px-6 text-white"
                 >
                   Book a Consultation →
                 </Button>
@@ -57,8 +55,8 @@ export default function FundraisingPage() {
             </div>
           </div>
 
-          {/* Right Column / Image Graphic */}
-          <div className="relative w-full h-70 sm:h-87.5 md:h-112.5 flex items-center justify-center">
+          {/* Right Column / Hero Graphic Image */}
+          <div className="relative w-full h-80 sm:h-100 md:h-120 flex items-center justify-center">
             <Image
               src="/implementation/hero-graphic.png"
               alt="Project Implementation Graphic"
@@ -68,30 +66,31 @@ export default function FundraisingPage() {
               priority
             />
 
-            <div className="absolute top-[5%] right-[2%] sm:right-[5%] bg-white p-3 sm:p-4 rounded-xl shadow-lg w-36 sm:w-48 z-10">
-              <Text
-                variant="h5"
-                className="text-xs! sm:text-sm! text-zinc-500 mb-1"
-              >
+            <div className="absolute top-[5%] right-[2%] sm:right-[5%] bg-zinc-900 border border-white/10 p-3 sm:p-4 rounded-xl shadow-xl w-38 sm:w-48 z-20">
+              <Text variant="h5" className="text-xs! sm:text-sm! text-zinc-400 mb-1">
                 Need Attention
               </Text>
-              <p className="text-zinc-900 font-bold text-xs! sm:text-sm! leading-tight">
+              <p className="text-white font-bold text-xs! sm:text-sm! leading-tight">
                 23 undergiving major gift prospects
               </p>
             </div>
           </div>
+
         </div>
       </section>
+
       {/* Subsequent Sections */}
-      <WhyCustomSection />
-      <CoreValuesSection />
-      <ProjectWorkflowSection />
-      <SimpleAndPowerfulSection />
-      <FeatureOverviewSection />
-      <EngagementModelsSection />
-      <RealRevenueImpactSection />
-      <FAQSection />
-      <TrustedWebsiteDesignHero />
+      <div className="space-y-0">
+        <WhyCustomSection />
+        <CoreValuesSection />
+        <ProjectWorkflowSection />
+        <SimpleAndPowerfulSection />
+        <FeatureOverviewSection />
+        <EngagementModelsSection />
+        <RealRevenueImpactSection />
+        <FAQSection />
+        <TrustedWebsiteDesignHero />
+      </div>
     </div>
   );
 }
