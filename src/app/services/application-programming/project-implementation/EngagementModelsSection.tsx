@@ -85,11 +85,6 @@ const MODELS = [
 
 export default function EngagementModelsSection() {
   return (
-    /* 
-      MOBILE & WEB POSITIONING ADJUSTMENT:
-      -mt-12 or -mt-16 handles pulling the section up on mobile devices.
-      md:-mt-24 or md:-mt-32 handles pulling the section up on desktop screens.
-    */
     <section className="relative z-20 mt-0  w-full bg-[#0a0a0a] text-white overflow-hidden py-16 md:py-28 px-6 md:px-10 lg:px-0">
       {/* Main Container */}
       <div className="mx-auto max-w-350">

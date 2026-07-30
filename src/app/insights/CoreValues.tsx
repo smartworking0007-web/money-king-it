@@ -37,9 +37,7 @@ export default function CoreValues() {
             <Text variant="label" className="text-emerald-400">Core Values</Text>
             <h2 className="text-3xl md:text-5xl font-bold text-white mt-2 tracking-tight">Our Core Values</h2>
           </div>
-          <p className="max-w-sm text-zinc-500 text-sm leading-relaxed">
-            We see randomness not as noise, but as a source of insight unlocking paths that structured thinking often overlooks.
-          </p>
+         
         </div>
 
         {/* Content Section */}
