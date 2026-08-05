@@ -1,4 +1,4 @@
-import React from "react";
+
 import Image from "next/image";
 import Link from "next/link";
 import Text from "@/components/ui/Text";
@@ -63,7 +63,6 @@ export default function Page() {
           </div>
         </div>
       </div>
-
       <CampusesPage />
       <InternshipProgramsSection />
       <HiringPipelineSection />
@@ -73,6 +72,6 @@ export default function Page() {
       <StatsCircularSection />
       <StudentTestimonialsSection />
       <FaqSection />
-    </main>
-  );
+     </main>
+  );  
 }

@@ -1,91 +1,75 @@
 import React from "react";
-// import HeroSection from '@/components/custom-software-development/HeroSection';
-// import OverviewSection from '@/components/custom-software-development/OverviewSection';
-// import ServicesSection from '@/components/custom-software-development/ServicesSection';
-// import DevelopmentProcess from '@/components/custom-software-development/DevelopmentProcess';
-// import TechnologyStack from '@/components/custom-software-development/TechnologyStack';
-// import IndustriesSection from '@/components/custom-software-development/IndustriesSection';
-// import BenefitsSection from '@/components/custom-software-development/BenefitsSection';
-// import CaseStudiesSection from '@/components/custom-software-development/CaseStudiesSection';
-// import FAQSection from '@/components/custom-software-development/FAQSection';
-// import CTASection from '@/components/custom-software-development/CTASection';
+import Image from "next/image";
+import Link from "next/link";
+import { Button } from "@/components/ui/Text";
+import KeepProjectOnBrandSection from "./KeepProjectOnBrandSection";
+import CustomSoftwareHeroWithCards from "./CustomSoftwareHeroWithCards";
+import InternshipProgramsSection from "./InternshipProgramsSection";
+import DomainExpertiseAndLifecycle from "./DomainExpertiseAndLifecycle";
+import CustomSoftwareWorkflow from "./CustomSoftwareWorkflow";
+import MeasurableOperationalImpact from "./MeasurableOperationalImpact";
+import FeatureOverviewSection from "./FeatureOverviewSection";
+import CustomSoftwareFAQ from "./CustomSoftwareFAQ";
 
-import HeroSection from "./HeroSection";
-import OverviewSection from "./OverviewSection";
-import ServicesSection from "./ServicesSection";
-import DevelopmentProcess from "./DevelopmentProcess";
-import TechnologyStack from "./TechnologyStack";
-import IndustriesSection from "./IndustriesSection";
-import BenefitsSection from "./BenefitsSection";
-import CaseStudiesSection from "./CaseStudiesSection";
-import FAQSection from "./FAQSection";
-import CTASection from "./CTASection";
-
-// Structural deployment fallback mock layers
-const MethodologySection = () => null;
-const Testimonials = () => null;
-const ContactSection = () => null;
-
-export const metadata = {
-  title: "Custom Software Development Services | Enterprise Grade Platforms",
-  description:
-    "We construct secure, modular, highly-scalable custom software tools engineered dynamically around your precise enterprise operational architecture.",
-};
-
-export default function CustomSoftwareDevelopmentPage() {
+export default function FundraisingHero() {
   return (
-    <div className="w-full bg-[#E5EBEB] text-zinc-900 flex flex-col pb-20 overflow-x-hidden antialiased selection:bg-[#00E5A0]/30">
-      <HeroSection />
-      
-      <div className="w-full max-w-7xl mx-auto px-6 sm:px-12 lg:px-16 flex flex-col gap-20 sm:gap-28 md:gap-36">
-        <div className="-mt-10 sm:-mt-24 md:-mt-10 relative z-20 w-full">
-          <OverviewSection />
-        </div>
+    <div className="w-full bg-black text-white overflow-hidden m-0 p-0">
+      <section className="relative w-full bg-black text-white overflow-hidden py-12 sm:py-16 md:py-24 px-0">
+        <div className="w-full px-4 sm:px-6 lg:px-12 mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center">
+            
+            {/* Left Text Content */}
+            <div className="flex flex-col space-y-6 text-center lg:text-left order-2 lg:order-1 z-10">
+              <h3 className="font-mono uppercase tracking-[0.2em] text-[#00D094] text-xs sm:text-sm font-bold cursor-pointer">
+                Custom Software Development
+              </h3>
 
-        <div className=" -mt-30 sm:-mt-24 md:-mt-50 relative z-20 w-full">
-          <ServicesSection />
-        </div>
+              <h1 className="text-zinc-100 text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold leading-snug tracking-tight font-sans">
+                We build scalable, secure, and business-focused software solutions tailored to your unique requirements.
+              </h1>
 
-        <div className=" -mt-30 sm:-mt-24 md:-mt-40 relative z-20 w-full">
-          <DevelopmentProcess />
-        </div>
+              <div className="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 sm:gap-6">
+                <Link href="/contact" className="w-full sm:w-auto">
+                  <Button
+                    variant="primary"
+                    size="md"
+                    className="w-full sm:w-auto py-3.5 px-8 text-base justify-center bg-[#8b00ff] hover:bg-[#7500db] text-white rounded-xl shadow-lg transition-all cursor-pointer"
+                  >
+                    Book Consultation →
+                  </Button>
+                </Link>
 
-        <div className="-mt-30 sm:-mt-24 md:-mt-70 relative z-20 w-full">
-          <MethodologySection />
-        </div>
+                <Link href="/contact" className="w-full sm:w-auto text-white font-medium hover:text-[#00D094] transition-colors inline-flex items-center justify-center gap-2 group cursor-pointer">
+                  Start Project 
+                  <span className="transform group-hover:translate-x-1 transition-transform">→</span>
+                </Link>
+              </div>
+            </div>
 
-        <div className="-mt-25 sm:-mt-24 md:-mt-10 relative z-20 w-full">
-          <IndustriesSection />
-        </div>
+            {/* Right Image Container */}
+            <div className="relative w-full h-75 sm:h-95 md:h-112.5 lg:h-125 flex items-center justify-center order-1 lg:order-2">
+              <Image
+                src="/custom/1.png" 
+                alt="Custom Software Development Solutions"
+                fill
+                priority
+                className="object-contain object-center w-full h-full"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 80vw, 50vw"
+              />
+            </div>
 
-        <div className="-mt-30 sm:-mt-24 md:-mt-50 relative z-20 w-full">
-          <TechnologyStack />
+          </div>
         </div>
+      </section>
 
-        <div className="-mt-30 sm:-mt-24 md:-mt-50 relative z-20 w-full">
-          <BenefitsSection />
-        </div>
-
-        <div className="-mt-30 sm:-mt-24 md:-mt-50 relative z-20 w-full">
-          <CaseStudiesSection />
-        </div>
-
-        <div className="-mt-30 sm:-mt-24 md:-mt-50  relative z-20 w-full">
-          <Testimonials />
-        </div>
-
-        <div className="-mt-30 sm:-mt-24 md:-mt-35 relative z-20 w-full">
-          <FAQSection />
-        </div>
-
-        <div className="-mt-30 sm:-mt-24 md:-mt-50 relative z-20 w-full">
-          <CTASection />
-        </div>
-
-        <div className="-mt-30 sm:-mt-24 md:-mt-20 relative z-20 w-full">
-          <ContactSection />
-        </div>
-      </div>
+      <KeepProjectOnBrandSection />
+      <CustomSoftwareHeroWithCards />
+      <InternshipProgramsSection />
+      <DomainExpertiseAndLifecycle />
+      <CustomSoftwareWorkflow />
+      <MeasurableOperationalImpact />
+      <FeatureOverviewSection />
+      <CustomSoftwareFAQ />
     </div>
   );
 }
