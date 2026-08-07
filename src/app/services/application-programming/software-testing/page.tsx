@@ -1,64 +1,81 @@
 import React from "react";
-import HeroSection from "./HeroSection";
-import TrustedCompanies from "./TrustedCompanies";
-import TestingServicesSection from "./TestingServicesSection";
-import WhyChooseUs from "./WhyChooseUs";
-import TestingProcessTimeline from "./TestingProcessTimeline";
-import TestingTypesSection from "./TestingTypesSection";
-import AutomationTools from "./AutomationTools";
-import IndustriesServed from "./IndustriesServed";
-import TestingBenefits from "./TestingBenefits";
-import TestingStats from "./TestingStats";
-import TestingFAQ from "./TestingFAQ";
-import TestingCTA from "./TestingCTA";
+import Image from "next/image";
+import Link from "next/link";
+import { Button } from "@/components/ui/Text";
+import SoftwareTestingHero from "./SoftwareTestingHero";
+import TestingMetricsGrid from "./TestingMetricsGrid";
+import MeasurableImpactSection from "./MeasurableImpactSection";
+import ProjectWorkflowSection from "../project-implementation/ProjectWorkflowSection";
+import FullSuitePpcServices from "./FullSuitePpcServices";
+import AutomationTestingTools from "./AutomationTestingTools";
+import TestingTaxonomyMatrix from "./TestingTaxonomyMatrix";
+import TestingCoreValuesSection from "./TestingCoreValuesSection";
+import FaqSection from "@/app/industries/FaqSection";
 
-export const metadata = {
-  title:
-    "Enterprise Software Quality Assurance & Testing Services | Money King Software",
-  description:
-    "Deliver bug-free, highly secure, and performance-optimized digital platforms. Money King Software offers enterprise-grade manual and automated testing solutions.",
-};
-
-export default function SoftwareTestingServicesPage() {
+export default function FundraisingHero() {
   return (
-    <div className="w-full bg-[#E5EBEB] text-zinc-900 flex flex-col pb-20 overflow-x-hidden antialiased selection:bg-teal-500/20">
-      <HeroSection />
+    <div className="w-full bg-black text-white overflow-hidden m-0 p-0">
+      <section className="relative w-full bg-black text-white overflow-hidden py-12 sm:py-16 md:py-24 px-0">
+        <div className="w-full px-4 sm:px-6 lg:px-12 mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center">
+            {/* Left Text Content */}
+            <div className="flex flex-col space-y-6 text-center lg:text-left order-2 lg:order-1 z-10">
+              <h3 className="font-mono uppercase tracking-[0.2em] text-[#00D094] text-xs sm:text-sm font-bold cursor-pointer">
+                Expert Software Testing Services
+              </h3>
 
-      <div className="w-full max-w-7xl mx-auto px-4 sm:px-8 lg:px-12 flex flex-col gap-20 sm:gap-28 md:gap-36">
-        <div className="-mt-10 sm:-mt-24 md:-mt-10 relative z-20 w-full">
-          <TrustedCompanies />
+              <h1 className="text-zinc-100 text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold leading-snug tracking-tight font-sans">
+                Eliminate architectural flaws and deploy secure applications.
+                Our QA frameworks execute deep regression simulations for
+                bulletproof, high-performance software.
+              </h1>
+
+              <div className="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 sm:gap-6">
+                <Link href="/contact" className="w-full sm:w-auto">
+                  <Button
+                    variant="primary"
+                    size="md"
+                    className="w-full sm:w-auto py-3.5 px-8 text-base justify-center bg-[#8b00ff] hover:bg-[#7500db] text-white rounded-xl shadow-lg transition-all cursor-pointer"
+                  >
+                    Book Consultation →
+                  </Button>
+                </Link>
+
+                <Link
+                  href="/contact"
+                  className="w-full sm:w-auto text-white font-medium hover:text-[#00D094] transition-colors inline-flex items-center justify-center gap-2 group cursor-pointer"
+                >
+                  Start Project
+                  <span className="transform group-hover:translate-x-1 transition-transform">
+                    →
+                  </span>
+                </Link>
+              </div>
+            </div>
+
+            {/* Right Image Container */}
+            <div className="relative w-full h-75 sm:h-95 md:h-112.5 lg:h-125 flex items-center justify-center order-1 lg:order-2">
+              <Image
+                src="/custom/1.png"
+                alt="Custom Software Development Solutions"
+                fill
+                priority
+                className="object-contain object-center w-full h-full"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 80vw, 50vw"
+              />
+            </div>
+          </div>
         </div>
-        <div className="-mt-10 sm:-mt-24 md:-mt-25 relative z-20 w-full">
-          <TestingServicesSection />
-        </div>
-        <div className="-mt-25 sm:-mt-24 md:-mt-30 relative z-20 w-full">
-          <WhyChooseUs />
-        </div>
-        <div className="-mt-25 sm:-mt-24 md:-mt-30 relative z-20 w-full">
-          <TestingProcessTimeline />
-        </div>
-        <div className="-mt-25 sm:-mt-24 md:-mt-30 relative z-20 w-full">
-          <TestingTypesSection />
-        </div>
-        <div className="-mt-25 sm:-mt-24 md:-mt-30 relative z-20 w-full">
-          <AutomationTools />
-        </div>
-        <div className="-mt-25 sm:-mt-24 md:-mt-30 relative z-20 w-full">
-          <IndustriesServed />
-        </div>
-        <div className="-mt-25 sm:-mt-24 md:-mt-30 relative z-20 w-full">
-          <TestingBenefits />
-        </div>
-        <div className="-mt-25 sm:-mt-24 md:-mt-30 relative z-20 w-full">
-          <TestingStats />
-        </div>
-        <div className="-mt-25 sm:-mt-24 md:-mt-30 relative z-20 w-full">
-          <TestingFAQ />
-        </div>
-        <div className="-mt-25 sm:-mt-24 md:-mt-30 relative z-20 w-full">
-          <TestingCTA />
-        </div>
-      </div>
+      </section>
+      <SoftwareTestingHero />
+      <TestingMetricsGrid />
+      <MeasurableImpactSection />
+      <ProjectWorkflowSection />
+      <FullSuitePpcServices />
+      <AutomationTestingTools />
+      <TestingTaxonomyMatrix />
+      <TestingCoreValuesSection />
+      <FaqSection />
     </div>
   );
-}
+} 
