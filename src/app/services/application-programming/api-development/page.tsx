@@ -1,76 +1,95 @@
 import React from "react";
-
-import LuxuryHero from "./LuxuryHero";
-import InfrastructureShowcase from "./InfrastructureShowcase";
-import EnterpriseIntegrations from "./EnterpriseIntegrations";
-import BentoCapabilities from "./BentoCapabilities";
-import SecurityCommandCenter from "./SecurityCommandCenter";
-import WorkflowTimeline from "./WorkflowTimeline";
-import AnalyticsPreview from "./AnalyticsPreview";
-import LuxuryStats from "./LuxuryStats";
+import Image from "next/image";
+import Link from "next/link";
+import { Button } from "@/components/ui/Text";
+import Text from "@/components/ui/Text";
+import ApiGatewayGridSection from "./ApiGatewayGridSection";
+import ModernVisualApiInfrastructure from "./ModernVisualApiInfrastructure";
+import ApiInfrastructureFeatures from "./ApiInfrastructureFeatures";
+import EnterpriseIntegrationsGrid from "./EnterpriseIntegrationsGrid";
+import AsymmetricBentoMatrix from "./AsymmetricBentoMatrix";
+import HardenedPayloadEncryption from "./HardenedPayloadEncryption";
+import ProjectWorkflowSection from "../project-implementation/ProjectWorkflowSection";
+import InfrastructureMonitoringSection from "../ecommerce-development/InfrastructureMonitoringSection";
+import EmergingTechnologiesSection from "../ecommerce-development/EmergingTechnologiesSection";
 import ClientSuccessStories from "./ClientSuccessStories";
-import PremiumFAQ from "./PremiumFAQ";
-import LuxuryCTA from "./LuxuryCTA";
+import TrustedWebsiteDesignHero from "../project-implementation/TrustedWebsiteDesignHero";
+import FaqSection from "@/app/industries/FaqSection";
 
-export const metadata = {
-  title:
-    "Next-Gen Enterprise API Development | Money King Software Infrastructure",
-  description:
-    "Architecting high-frequency backend routing layers, programmatic payment engines, and sandboxed microservice infrastructures. Engineered on luxury SaaS parameters.",
-};
-
-export default function LuxuryApiDevelopmentPage() {
+export default function WebsiteDevelopmentHero() {
   return (
-    <div className="w-full bg-[#E5EBEB] text-slate-900 flex flex-col pb-32 overflow-x-hidden antialiased selection:bg-teal-500/30 selection:text-teal-950">
-      {/* Immersive Background Ambient Overlays */}
-      <div className="absolute top-0 left-0 right-0 h-1200px bg-[radial-gradient(ellipse_60%_40%_at_50%_0%,rgba(20,184,166,0.18),transparent_70%)] pointer-events-none" />
-      <div className="absolute top-2500px right-0 w-600px h-600px bg-emerald-500/5 blur-[140px] rounded-full pointer-events-none" />
-      <div className="absolute bottom-1000px left-0 w-800px h-800px bg-teal-500/5 blur-[160px] rounded-full pointer-events-none" />
-
-      <LuxuryHero />
-
-      {/* Strict Luxury Spacing System Across Linear Node Rows */}
-      <div className="w-full max-w-7xl mx-auto px-4 sm:px-8 lg:px-12 flex flex-col gap-28 sm:gap-36 md:gap-48 relative z-10">
-        <div className="-mt-25 sm:-mt-24 md:-mt-15 relative z-20 w-full">
-          <InfrastructureShowcase />
+    <>
+      <section className="relative w-full min-h-[85vh] sm:min-h-[90vh] bg-black text-white overflow-hidden flex items-center py-16 sm:py-20 px-5 sm:px-8 md:px-12 lg:px-16">
+        {/* Background Image Container with object-cover and dark gradient for mobile readability */}
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/api/1.png"
+            alt="fuck"
+            fill
+            priority
+            className="object-cover object-center"
+            sizes="100vw"
+          />
+          {/* Stronger background overlay on mobile so text remains 100% readable */}
+          <div className="absolute inset-0 bg-black/75 sm:bg-black/50 pointer-events-none" />
         </div>
 
-        <div className="-mt-25 sm:-mt-24 md:-mt-30 relative z-20 w-full">
-          <EnterpriseIntegrations />
-        </div>
+        {/* Main Content Container - Fully centered/stacked on mobile, right-aligned on desktop */}
+        <div className="relative z-10 mx-auto max-w-7xl w-full flex justify-center lg:justify-end">
+          <div className="max-w-2xl w-full flex flex-col space-y-6 text-left items-start">
+            <Text
+              variant="h2"
+              className="text-white! text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight leading-tight drop-shadow-md text-left"
+            >
+              Custom API Development Services
+            </Text>
 
-        <div className="-mt-25 sm:-mt-24 md:-mt-30 relative z-20 w-full">
-          <BentoCapabilities />
-        </div>
+            <Text
+              variant="h4"
+              className="text-zinc-200! text-sm sm:text-base md:text-lg font-normal leading-relaxed drop-shadow text-left"
+            >
+              Build high-performance RESTful & GraphQL APIs with our custom API
+              development services. We architect zero-latency, secure data
+              pipelines for seamless system integration.
+            </Text>
 
-        <div className="-mt-25 sm:-mt-24 md:-mt-30 relative z-20 w-full">
-          <SecurityCommandCenter />
-        </div>
+            {/* Action Buttons - Full width on mobile, auto on desktop */}
+            <div className="pt-4 flex flex-col sm:flex-row items-stretch sm:items-center justify-start gap-4 w-full sm:w-auto">
+              <Link href="/contact" className="w-full sm:w-auto">
+                <Button
+                  variant="primary"
+                  size="md"
+                  className="w-full sm:w-auto py-3.5 px-8 text-base justify-center bg-[#00D094] hover:bg-[#00b07d] text-black font-bold rounded-xl shadow-lg transition-all cursor-pointer"
+                >
+                  Book Consultation →
+                </Button>
+              </Link>
 
-        <div className="-mt-25 sm:-mt-24 md:-mt-30 relative z-20 w-full">
-          <WorkflowTimeline />
+              <Link
+                href="/contact"
+                className="w-full sm:w-auto text-white font-medium hover:text-[#00D094] transition-colors inline-flex items-center justify-center gap-2 group cursor-pointer py-3.5 px-6 rounded-xl border border-white/20 bg-black/60 backdrop-blur-md hover:border-[#00D094]/40"
+              >
+                Start Project
+                <span className="transform group-hover:translate-x-1 transition-transform">
+                  →
+                </span>
+              </Link>
+            </div>
+          </div>
         </div>
-
-        <div className="-mt-25 sm:-mt-24 md:-mt-30 relative z-20 w-full">
-          <AnalyticsPreview />
-        </div>
-
-        <div className="-mt-25 sm:-mt-24 md:-mt-30 relative z-20 w-full">
-          <LuxuryStats />
-        </div>
-
-        <div className="-mt-25 sm:-mt-24 md:-mt-30 relative z-20 w-full">
-          <ClientSuccessStories />
-        </div>
-
-        <div className="-mt-25 sm:-mt-24 md:-mt-30 relative z-20 w-full">
-          <PremiumFAQ />
-        </div>
-
-        <div className="-mt-25 sm:-mt-24 md:-mt-30 relative z-20 w-full">
-          <LuxuryCTA />
-        </div>
-      </div>
-    </div>
+      </section>
+      <ApiGatewayGridSection />
+      <ModernVisualApiInfrastructure />
+      <ApiInfrastructureFeatures />
+      <EnterpriseIntegrationsGrid />
+      <AsymmetricBentoMatrix />
+      <HardenedPayloadEncryption />
+      <ProjectWorkflowSection />
+      <InfrastructureMonitoringSection />
+      <EmergingTechnologiesSection />
+      <ClientSuccessStories />
+      <TrustedWebsiteDesignHero />
+      <FaqSection />
+    </>
   );
 }

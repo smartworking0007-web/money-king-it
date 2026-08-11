@@ -1,89 +1,72 @@
-import React from "react";
+// File Name: page.tsx
 
-import ShopifyHero from "./ShopifyHero";
-import ShopifyServices from "./ShopifyServices";
-import ShopifyFeatures from "./ShopifyFeatures";
-import ShopifyWhyChoose from "./ShopifyWhyChoose";
-import ShopifyProcess from "./ShopifyProcess";
-import ShopifyIntegrations from "./ShopifyIntegrations";
-import ShopifyTechStack from "./ShopifyTechStack";
-import ShopifyPlusSolutions from "./ShopifyPlusSolutions";
-import ShopifyIndustries from "./ShopifyIndustries";
-import ShopifyStats from "./ShopifyStats";
-import ShopifyCaseStudies from "./ShopifyCaseStudies";
-import ShopifyTestimonials from "./ShopifyTestimonials";
-import ShopifyFAQ from "./ShopifyFAQ";
-import ShopifyCTA from "./ShopifyCTA";
+"use client";
+import Link from "next/link";
+import Image from "next/image";
+import ShopifyServicesGrid from "./ShopifyServicesGrid";
+import FullSuitePpcManagementServices from "./FullSuitePpcManagementServices";
+import WhyEcommerceRunsOnShopify from "./WhyEcommerceRunsOnShopify";
+import HowWeDriveRevenue from "../cross-platform-application-development/HowWeDriveRevenue";
+import ShopifyIndustriesSection from "./ShopifyIndustriesSection";
+import TargetedShopifyEngineering from "./TargetedShopifyEngineering";
 
-export const metadata = {
-  title:
-    "Enterprise Shopify Development Experts | Money King Software Infrastructure",
-  description:
-    "Deploy high-conversion custom online storefronts, headless Hydrogen pipelines, and enterprise-level Shopify Plus ecosystems. Scaled cleanly by Money King Software.",
-};
+import CateredIndustries from "./CateredIndustries";
+import ClientSuccessStories from "../api-development/ClientSuccessStories";
+import FaqSection from "@/app/industries/FaqSection";
 
-export default function ShopifyDevelopmentPage() {
+export default function Page() {
   return (
-    <div className="w-full bg-[#E5EBEB] text-slate-900 flex flex-col pb-32 overflow-x-hidden antialiased selection:bg-teal-500/20">
-      <ShopifyHero />
+    <>
+      <section className="relative w-full min-h-[75vh] md:min-h-screen bg-black overflow-x-hidden flex items-center justify-center">
+        {/* Background Image */}
+        <div className="absolute inset-0">
+          <Image
+            src="/shopify/1.png"
+            alt="Money King IT"
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover object-center brightness-110 contrast-110"
+          />
 
-      {/* Strict Luxury Spacing Configuration Tracking 1280px Matrix Layouts */}
-      <div className="w-full max-w-7xl mx-auto px-4 sm:px-8 lg:px-12 flex flex-col gap-24 sm:gap-32 md:gap-40 relative z-10">
-        <div className="-mt-25 sm:-mt-24 md:-mt-10 relative z-20 w-full">
-          <ShopifyServices />
-        </div>
- 
-        <div className="-mt-25 sm:-mt-24 md:-mt-30 relative z-20 w-full">
-          <ShopifyFeatures />
-        </div>
-
-        <div className="-mt-25 sm:-mt-24 md:-mt-30 relative z-20 w-full">
-          <ShopifyWhyChoose />
-        </div>
-
-        <div className="-mt-25 sm:-mt-24 md:-mt-10 relative z-20 w-full">
-          <ShopifyProcess />
+          {/* Overlay */}
+          <div className="absolute inset-0 bg-linear-to-b from-black/60 via-transparent to-black/80" />
         </div>
 
-        <div className="-mt-25 sm:-mt-24 md:-mt-10 relative z-20 w-full">
-          <ShopifyIntegrations />
-        </div>
+        {/* Content */}
+        <div className="relative z-10 flex flex-col items-center justify-center text-center px-6 py-16">
+          <div className="max-w-5xl">
+            <h1 className="text-white text-4xl md:text-7xl font-extrabold mb-4 leading-[1.1]">
+              Build High-Converting <br className="hidden md:block" />
+              Shopify Stores
+            </h1>
 
+            <p className="text-gray-300 text-base md:text-xl max-w-2xl mx-auto leading-relaxed font-light mb-8">
+              Scale your e-commerce brand worldwide with custom solutions and
+              high-speed architecture.
+            </p>
 
-        <div className="-mt-25 sm:-mt-24 md:-mt-10 relative z-20 w-full">
-          <ShopifyServices />
-        </div>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <Link href="/contact">
+                <button className="bg-[#00D094] text-black px-8 py-3 md:px-12 md:py-5 rounded-full font-bold text-sm md:text-lg hover:bg-[#00b07d] hover:scale-105 active:scale-95 transition-all duration-300 shadow-lg shadow-[#00D094]/20 cursor-pointer">
+                  Get Started
+                </button>
+              </Link>
+            </div>
+          </div>
+        </div>Industries We Cater to
+      </section>
 
-        <div className="-mt-25 sm:-mt-24 md:-mt-30 relative z-20 w-full">
-          <ShopifyTechStack />
-        </div>
-
-        <div className="-mt-25 sm:-mt-24 md:-mt-15 relative z-20 w-full">
-          <ShopifyPlusSolutions />
-        </div>
-
-        <div className="-mt-25 sm:-mt-24 md:-mt-15 relative z-20 w-full">
-          <ShopifyIndustries />
-        </div>
-
-        <div className="-mt-25 sm:-mt-24 md:-mt-20 relative z-20 w-full">
-          <ShopifyStats />
-        </div>
-
-        <div className="-mt-25 sm:-mt-24 md:-mt-20 relative z-20 w-full">
-          <ShopifyCaseStudies />
-        </div>
-
-        <div className="-mt-25 sm:-mt-24 md:-mt-20 relative z-20 w-full">
-          <ShopifyTestimonials />
-        </div>
-        <div className="-mt-25 sm:-mt-24 md:-mt-20 relative z-20 w-full">
-          <ShopifyFAQ />
-        </div>
-        <div className="-mt-25 sm:-mt-24 md:-mt-10 relative z-20 w-full">
-          <ShopifyCTA />
-        </div> 
-      </div>
-    </div>
+      {/* Shopify Services Grid Component */}
+      <ShopifyServicesGrid />
+      <FullSuitePpcManagementServices />
+      <WhyEcommerceRunsOnShopify />
+      <HowWeDriveRevenue />
+      <ShopifyIndustriesSection />
+      <TargetedShopifyEngineering />
+      <CateredIndustries />
+      <ClientSuccessStories />
+      <FaqSection />
+    </>
   );
 }
