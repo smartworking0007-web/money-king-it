@@ -1,29 +1,31 @@
-import Hero from "./Hero";
-import PerformanceDashboard from "./PerformanceDashboard";
-import IOSSolutions from "./IOSSolutions";
-import AppArchitecture from "./AppArchitecture";
-import EnterpriseFeatures from "./EnterpriseFeatures";
-import TechnologyStack from "./TechnologyStack";
-import IndustrySolutions from "./IndustrySolutions";
-import SuccessMetrics from "./SuccessMetrics";
-import ClientSuccessStories from "./ClientSuccessStories";
-import PremiumFAQ from "./PremiumFAQ";
-import LuxuryCTA from "./LuxuryCTA";
+// File Name: page.tsx
 
-export default function IOSDevelopmentPage() {
+import React from "react";
+import Image from "next/image";
+import IosDevelopmentSolutions from "./iosDevelopmentSolutions";
+import IndustriesWeCaterTo from "../../application-programming/cross-platform-application-development/IndustriesWeCaterTo";
+import StatsCircularSection from "@/app/industries/StatsCircularSection";
+import TrustedWebsiteDesignHero from "../../application-programming/project-implementation/TrustedWebsiteDesignHero";
+import FaqSection from "@/app/industries/FaqSection";
+
+export default function Page() {
   return (
-    <main className="bg-[#E5EBEB] min-h-screen">
-      <Hero />
-      <PerformanceDashboard />
-      <IOSSolutions />
-      <AppArchitecture />
-      <EnterpriseFeatures />
-      <TechnologyStack />
-      <IndustrySolutions />
-      <SuccessMetrics />
-      <ClientSuccessStories />
-      <PremiumFAQ />
-      <LuxuryCTA />
-    </main>
+    <section className="relative w-full bg-black overflow-hidden p-0 m-0">
+      <div className="relative w-full h-[75vh] md:h-[85vh] overflow-hidden">
+        <Image
+          src="/ios/1.png"
+          alt="ios application with money king"
+          fill
+          priority
+          sizes="100vw"
+          className="w-full h-full object-cover object-center"
+        />
+      </div>
+      <IosDevelopmentSolutions />
+      <IndustriesWeCaterTo />
+      <StatsCircularSection />
+      <TrustedWebsiteDesignHero />
+      <FaqSection />
+    </section>
   );
 }

@@ -26,6 +26,7 @@ const servicesMegaData = {
     points: [
       { name: "ROI-Focused SEO Optimization", subslug: "seo-optimization" },
       { name: "PPC Target Conversion Campaigns", subslug: "ppc-campaigns" },
+      { name: "Social Media Ads Predictive Models", subslug: "social-media-ads" },
       { name: "Scalable Enterprise Lead Generation", subslug: "lead-generation" },
     ],
   },
