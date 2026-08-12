@@ -1,25 +1,37 @@
-// File Name: SeoGrowthFramework.tsx
+// File Name: PpcGrowthMarquee.tsx
 
 import React from "react";
+import Image from "next/image";
 import Text from "@/components/ui/Text";
 
-const GROWTH_STEPS = [
-  { title: "Audit" },
-  { title: "Research" },
-  { title: "Strategy" },
-  { title: "Technical" },
-  { title: "Content" },
-  { title: "Authority" },
-  { title: "Tracking" },
-  { title: "Growth" },
+const GROWTH_IMAGES = [
+  { src: "/ppc/2.png", alt: "PPC Step 1" },
+  { src: "/ppc/3.png", alt: "PPC Step 2" },
+  { src: "/ppc/4.png", alt: "PPC Step 3" },
+  { src: "/ppc/5.png", alt: "PPC Step 4" },
+  { src: "/ppc/6.png", alt: "PPC Step 5" },
+  { src: "/ppc/7.png", alt: "PPC Step 6" },
 ];
 
-export default function SeoGrowthFramework() {
+export default function PpcGrowthMarquee() {
   // Duplicating the array to create a seamless infinite loop
-  const marqueeItems = [...GROWTH_STEPS, ...GROWTH_STEPS];
+  const marqueeItems = [...GROWTH_IMAGES, ...GROWTH_IMAGES];
 
   return (
     <section className="relative w-full bg-black text-white overflow-hidden py-12 md:py-20 border-t border-white/10 flex flex-col items-center justify-center min-h-[40vh]">
+      {/* Background Image with Dark Overlay */}
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="/seo/3.png"
+          alt="seo growth framework background"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover object-center brightness-90 contrast-105"
+        />
+        <div className="absolute inset-0 bg-black/85 backdrop-blur-[2px]" />
+      </div>
+
       {/* Inline CSS for Marquee Animation */}
       <style>{`
         @keyframes scroll {
@@ -27,7 +39,7 @@ export default function SeoGrowthFramework() {
           100% { transform: translateX(-50%); }
         }
         .animate-scroll {
-          animation: scroll 15s linear infinite;
+          animation: scroll 20s linear infinite;
           width: max-content;
         }
         .animate-scroll:hover {
@@ -53,19 +65,19 @@ export default function SeoGrowthFramework() {
           <div className="absolute top-0 right-0 w-16 md:w-32 h-full bg-linear-to-l from-black to-transparent z-10 pointer-events-none" />
 
           {/* Scrolling Track */}
-          <div className="flex animate-scroll gap-4 sm:gap-6 px-4">
-            {marqueeItems.map((step, index) => (
+          <div className="flex animate-scroll gap-4 sm:gap-6 px-4 items-center">
+            {marqueeItems.map((item, index) => (
               <div
                 key={index}
-                className="flex flex-col justify-center min-w-35 sm:min-w-40 md:min-w-45 p-4 sm:p-5 rounded-2xl bg-white text-black border border-white/10 shadow-lg cursor-pointer transition-transform duration-300 hover:-translate-y-1"
+                className="relative flex items-center justify-center min-w-45 sm:min-w-55 h-25 sm:h-30 p-3 rounded-2xl bg-[#121212]/95 border border-white/10 shadow-lg cursor-pointer transition-transform duration-300 hover:-translate-y-1 overflow-hidden group"
               >
-                
-                <Text
-                  variant="h3"
-                  className="text-black! text-sm sm:text-base md:text-lg font-bold tracking-tight"
-                >
-                  {step.title}
-                </Text>
+                <Image
+                  src={item.src}
+                  alt={item.alt}
+                  fill
+                  sizes="(max-width: 768px) 180px, 220px"
+                  className="object-contain p-2 group-hover:scale-105 transition-transform duration-300"
+                />
               </div>
             ))}
           </div>
