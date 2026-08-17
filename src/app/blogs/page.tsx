@@ -5,8 +5,8 @@ import TopicsPreview from "./TopicsPreview";
 import CTA from "./CTA";
 
 export const metadata: Metadata = {
-  title: "Blogs & News | Money King IT Solutions",
-  description: "The Money King IT Solutions blog is launching soon. Discover future insights on AI, cybersecurity, cloud computing, software development, and digital transformation.",
+  title: "Blogs & News | Skky Loom Digital Technology Pvt. Ltd.",
+  description: "The Skky Loom Digital Technology Pvt. Ltd. blog is launching soon. Discover future insights on AI, cybersecurity, cloud computing, software development, and digital transformation.",
   keywords: ["Technology Blog", "IT News", "Artificial Intelligence", "Cyber Security", "Cloud Computing", "Software Development", "Digital Transformation", "Business Technology"]
 };
 

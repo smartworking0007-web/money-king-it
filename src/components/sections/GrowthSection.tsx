@@ -25,10 +25,10 @@ export default function GrowthSection() {
         {/* Header Section */}
         <div className="text-center mb-16">
           <Text variant="h2" className="mb-4 text-zinc-950">
-            About <span className="text-emerald-600">Money King IT</span>
+            About <span className="text-emerald-600">Skky Loom Digital Technology Pvt. Ltd.</span>
           </Text>
           <Text variant="body" className="max-w-3xl mx-auto mb-8 text-zinc-600">
-            Learn how Money King IT drives business expansion. As premier
+            Learn how Skky Loom Digital Technology Pvt. Ltd. drives business expansion. As premier
             digital growth partners, we deliver data-driven performance
             marketing, SEO, and robust tech scaling solutions.
           </Text>

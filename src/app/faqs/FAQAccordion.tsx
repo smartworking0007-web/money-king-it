@@ -1,6 +1,6 @@
 export default function FAQAccordion() {
   const faqs = [
-    { q: "What services does Money King provide?", a: "We offer full-cycle software development, AI, cybersecurity, and enterprise cloud solutions." },
+    { q: "What services does Skky Loom Digital Technology Pvt. Ltd. provide?", a: "We offer full-cycle software development, AI, cybersecurity, and enterprise cloud solutions." },
     { q: "How long does a project take?", a: "Timelines depend on complexity; most range from a few weeks to several months." },
     { q: "Do you support startups?", a: "Yes, we partner with startups, SMEs, and large global enterprises." }
   ];

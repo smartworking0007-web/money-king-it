@@ -21,7 +21,7 @@ export default function WebsiteDevelopmentHero() {
         <div className="absolute inset-0 z-0">
           <Image
             src="/andriod/1.png"
-            alt="app application with money king"
+            alt="app application with Skky Loom Digital Technology Pvt. Ltd."
             fill
             priority
             className="object-cover object-center"

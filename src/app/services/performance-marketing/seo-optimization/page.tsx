@@ -20,7 +20,7 @@ export default function Page() {
         <div className="absolute inset-0">
           <Image
             src="/seo/1.png"
-            alt="seo with money king"
+            alt="seo with Skky Loom Digital Technology Pvt. Ltd."
             fill
             priority
             sizes="100vw"

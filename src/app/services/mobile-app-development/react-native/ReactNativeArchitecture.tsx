@@ -57,7 +57,7 @@ export default function ReactNativeArchitecture() {
       <div className="absolute inset-0 z-0">
         <Image
           src="/Native/2.png"
-          alt="application with money king"
+          alt="application with Skky Loom Digital Technology Pvt. Ltd."
           fill
           priority
           sizes="100vw"

@@ -14,7 +14,7 @@ export default function Page() {
       <div className="relative w-full h-[75vh] md:h-[85vh] overflow-hidden">
         <Image
           src="/ios/1.png"
-          alt="ios application with money king"
+          alt="ios application with Skky Loom Digital Technology Pvt. Ltd."
           fill
           priority
           sizes="100vw"

@@ -35,7 +35,7 @@ export default function CommerceTechStackSection() {
       <div className="absolute inset-0 z-0 opacity-40 pointer-events-none">
         <Image
           src="/eCommerce/2.png"
-          alt="ecommerce service with money king"
+          alt="ecommerce service with Skky Loom Digital Technology Pvt. Ltd."
           fill
           sizes="100vw"
           className="object-cover object-center"
@@ -85,7 +85,7 @@ export default function CommerceTechStackSection() {
                   {section.items.map((tech, techIdx) => (
                     <div
                       key={techIdx}
-                      aria-label="ecommerce service with money king"
+                      aria-label="ecommerce service with Skky Loom Digital Technology Pvt. Ltd."
                       className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 hover:border-[#00D094]/40 hover:bg-[#00D094]/10 transition-all duration-300 transform hover:scale-105 shadow-sm cursor-default"
                     >
                       <span className="w-1.5 h-1.5 rounded-full bg-[#00D094]"></span>

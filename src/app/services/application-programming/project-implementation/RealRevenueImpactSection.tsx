@@ -14,14 +14,14 @@ const TESTIMONIALS = [
   {
     name: "Rahul Sharma",
     quote:
-      "Money King IT ke custom software solutions ne humare business operations ko totally transform kar diya hai. Unki team ka process bahut clear aur fast hai.",
+      "Skky Loom Digital Technology Pvt. Ltd. ke custom software solutions ne humare business operations ko totally transform kar diya hai. Unki team ka process bahut clear aur fast hai.",
     highlight: "100%",
     subtext: "Business Operations Transformed",
   },
   {
     name: "Priya Kulkarni",
     quote:
-      "Fintech space mein scalability ek bada challenge tha, lekin Money King IT ne humein robust architecture provide kiya. Highly recommended for custom software development.",
+      "Fintech space mein scalability ek bada challenge tha, lekin Skky Loom Digital Technology Pvt. Ltd. ne humein robust architecture provide kiya. Highly recommended for custom software development.",
     highlight: "Scalable",
     subtext: "Robust Fintech Architecture",
   },
@@ -35,21 +35,21 @@ const TESTIMONIALS = [
   {
     name: "Sneha Iyer",
     quote:
-      "Education platforms ke liye high concurrency handle karna zaroori hai, aur Money King IT ne humare deployment ko bina kisi glitch ke poora kiya.",
+      "Education platforms ke liye high concurrency handle karna zaroori hai, aur Skky Loom Digital Technology Pvt. Ltd. ne humare deployment ko bina kisi glitch ke poora kiya.",
     highlight: "Glitch-free",
     subtext: "High-Concurrency EdTech Scaling",
   },
   {
     name: "David Miller",
     quote:
-      "Money King IT team's expertise in HIPAA-compliant architecture is impressive. They delivered our project on time with total structural stability.",
+      "Skky Loom Digital Technology Pvt. Ltd. team's expertise in HIPAA-compliant architecture is impressive. They delivered our project on time with total structural stability.",
     highlight: "100% Secure",
     subtext: "HIPAA-Compliant Vault Delivery",
   },
   {
     name: "Sarah Jenkins",
     quote:
-      "We needed a custom software partner who understood our workflow needs. Money King IT exceeded our expectations with their automated deployment models.",
+      "We needed a custom software partner who understood our workflow needs. Skky Loom Digital Technology Pvt. Ltd. exceeded our expectations with their automated deployment models.",
     highlight: "Automated",
     subtext: "Seamless Workflow Integration",
   },
@@ -63,7 +63,7 @@ const TESTIMONIALS = [
   {
     name: "Jessica Wilson",
     quote:
-      "Looking for reliable software engineering services? Money King IT provided us with a scalable framework that grew with our user base seamlessly.",
+      "Looking for reliable software engineering services? Skky Loom Digital Technology Pvt. Ltd. provided us with a scalable framework that grew with our user base seamlessly.",
     highlight: "Seamless",
     subtext: "Rapid User Base Expansion",
   },

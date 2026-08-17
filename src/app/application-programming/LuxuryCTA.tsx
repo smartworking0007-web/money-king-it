@@ -8,7 +8,7 @@ export default function LuxuryCTA() {
           Ready To Build Enterprise Software That Scales ?
         </h2>
         <p className="mb-8 opacity-80">
-          Partner with Money King Software to develop secure, scalable, and
+          Partner with Skky Loom Digital Technology Pvt. Ltd. to develop secure, scalable, and
           future-ready applications.
         </p>
         <div className="flex gap-4 justify-center">

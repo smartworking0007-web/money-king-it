@@ -69,7 +69,7 @@ export default function ProfessionalWebsiteSolutionsHero() {
               variant="body"
               className="text-zinc-200! text-base sm:text-lg font-normal leading-relaxed drop-shadow text-left max-w-2xl"
             >
-              Money King IT engineers high-performance web spaces mapping asset
+              Skky Loom Digital Technology Pvt. Ltd. engineers high-performance web spaces mapping asset
               values explicitly for startups, growing systems, and global
               corporate giants. We construct solid infrastructure components
               tailored dynamically.

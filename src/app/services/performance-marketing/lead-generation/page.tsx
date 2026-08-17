@@ -18,7 +18,7 @@ export default function Page() {
           <div className="relative w-full aspect-video sm:aspect-21/9 overflow-hidden rounded-2xl">
             <Image
               src="/lead/1.png"
-              alt="social media ads with money king"
+              alt="social media ads with Skky Loom Digital Technology Pvt. Ltd."
               fill
               priority
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 1200px"

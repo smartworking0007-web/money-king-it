@@ -9,13 +9,13 @@ const TESTIMONIALS = [
   {
     name: "Rahul Sharma",
     review:
-      "Money King IT ke custom software solutions ne humare business operations ko totally transform kar diya hai. Unki team ka process bahut clear aur fast hai.",
+      "Skky Loom Digital Technology Pvt. Ltd. ke custom software solutions ne humare business operations ko totally transform kar diya hai. Unki team ka process bahut clear aur fast hai.",
     rating: 5,
   },
   {
     name: "Priya Kulkarni",
     review:
-      "Fintech space mein scalability ek bada challenge tha, lekin Money King IT ne humein robust architecture provide kiya. Highly recommended for custom software development.",
+      "Fintech space mein scalability ek bada challenge tha, lekin Skky Loom Digital Technology Pvt. Ltd. ne humein robust architecture provide kiya. Highly recommended for custom software development.",
     rating: 5,
   },
   {
@@ -27,19 +27,19 @@ const TESTIMONIALS = [
   {
     name: "Sneha Iyer",
     review:
-      "Education platforms ke liye high concurrency handle karna zaroori hai, aur Money King IT ne humare deployment ko bina kisi glitch ke poora kiya.",
+      "Education platforms ke liye high concurrency handle karna zaroori hai, aur Skky Loom Digital Technology Pvt. Ltd. ne humare deployment ko bina kisi glitch ke poora kiya.",
     rating: 5,
   },
   {
     name: "Vikram Malhotra",
     review:
-      "Money King IT team's expertise in architecture is impressive. They delivered our project on time with total structural stability.",
+      "Skky Loom Digital Technology Pvt. Ltd. team's expertise in architecture is impressive. They delivered our project on time with total structural stability.",
     rating: 5,
   },
   {
     name: "Ananya Deshmukh",
     review:
-      "We needed a custom software partner who understood our workflow needs. Money King IT exceeded our expectations with their automated deployment models.",
+      "We needed a custom software partner who understood our workflow needs. Skky Loom Digital Technology Pvt. Ltd. exceeded our expectations with their automated deployment models.",
     rating: 5,
   },
   {
@@ -51,7 +51,7 @@ const TESTIMONIALS = [
   {
     name: "Neha Agarwal",
     review:
-      "Looking for reliable software engineering services? Money King IT provided us with a scalable framework that grew with our user base seamlessly.",
+      "Looking for reliable software engineering services? Skky Loom Digital Technology Pvt. Ltd.provided us with a scalable framework that grew with our user base seamlessly.",
     rating: 5,
   },
 ];

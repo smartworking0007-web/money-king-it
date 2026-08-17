@@ -5,7 +5,7 @@ import PopularQuestions from "./PopularQuestions";
 import CTA from "./CTA";
 
 export const metadata = {
-  title: "FAQs | Money King IT Solutions",
+  title: "FAQs | Skky Loom Digital Technology Pvt. Ltd.",
   description: "Find answers to frequently asked questions about software development, AI, cloud services, cybersecurity, CRM, ERP, and support.",
   keywords: ["FAQ", "Frequently Asked Questions", "Software Development FAQ", "AI FAQ", "Cyber Security FAQ", "Cloud Services FAQ", "CRM FAQ", "ERP FAQ"]
 };

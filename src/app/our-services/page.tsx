@@ -7,8 +7,8 @@ import TechnologyStack from "./TechnologyStack";
 import CTA from "./CTA";
 
 export const metadata = {
-  title: "Our Services | Money King IT Solutions",
-  description: "Explore software development, AI, cybersecurity, cloud, CRM, ERP, and digital transformation services from Money King IT Solutions.",
+  title: "Our Services | Skky Loom Digital Technology Pvt. Ltd.",
+  description: "Explore software development, AI, cybersecurity, cloud, CRM, ERP, and digital transformation services from Skky Loom Digital Technology Pvt. Ltd.",
   keywords: ["IT Services", "Software Development", "Artificial Intelligence", "Cyber Security", "Cloud Services", "CRM", "ERP", "Digital Transformation"]
 };
 

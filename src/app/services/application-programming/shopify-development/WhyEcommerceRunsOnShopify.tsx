@@ -92,7 +92,7 @@ export default function WhyEcommerceRunsOnShopify() {
               variant="body"
               className="text-zinc-300! text-[11px] sm:text-xs font-normal leading-relaxed max-w-sm"
             >
-              Money King Software integrates native platform hooks with custom
+              Skky Loom Digital Technology Pvt. Ltd. integrates native platform hooks with custom
               theme scripts to achieve extreme load performance benchmarks.
             </Text>
           </div>

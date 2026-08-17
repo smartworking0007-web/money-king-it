@@ -11,7 +11,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         <Image
           src="/hero/hero4.png"
-          alt="Money King IT"
+          alt="Skky Loom Digital Technology Pvt. Ltd."
           fill
           priority
           sizes="100vw"

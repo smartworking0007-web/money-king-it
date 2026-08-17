@@ -55,7 +55,7 @@ export default function WhiteLabelSection() {
           <div className="relative h-75 md:h-100 w-full rounded-3xl overflow-hidden shadow-xl border border-gray-100">
             <Image
               src="/hero/whitelabel.jpeg"
-              alt="Tech world with money king"
+              alt="Tech world with Skky Loom Digital Technology Pvt. Ltd."
               fill
               className="object-cover"
               sizes="(max-width: 1024px) 100vw, 50vw"

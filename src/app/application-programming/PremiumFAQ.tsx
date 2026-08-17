@@ -18,7 +18,7 @@ export default function PremiumFAQ() {
           >
             <summary className="font-bold text-[#0F172A]">{q}</summary>
             <p className="text-xs text-zinc-600 pt-4 border-t mt-4 border-zinc-100">
-              Money King Software uses enterprise-grade practices to ensure your 
+             Skky Loom Digital Technology Pvt. Ltd. uses enterprise-grade practices to ensure your 
               applications are secure, scalable, and future-ready.
             </p>
           </details> 

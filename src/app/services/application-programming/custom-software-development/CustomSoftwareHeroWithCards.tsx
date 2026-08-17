@@ -31,7 +31,7 @@ export default function CustomSoftwareHeroWithCards() {
 
             <p className="text-white text-sm sm:text-base md:text-lg lg:text-xl font-normal leading-relaxed tracking-tight">
               Ready-made software often limits your business growth by forcing
-              you to adapt to pre-built constraints. At Money King IT, we
+              you to adapt to pre-built constraints. At Skky Loom Digital Technology Pvt. Ltd., we
               engineer custom software solutions tailored specifically to your
               operational logic, giving you complete control.
             </p>

@@ -22,7 +22,7 @@ export default function Page() {
         <div className="absolute inset-0">
           <Image
             src="/shopify/1.png"
-            alt="Money King IT"
+            alt="Skky Loom Digital Technology Pvt. Ltd."
             fill
             priority
             sizes="100vw"

@@ -49,7 +49,7 @@ export default function HeroSection() {
             >
               <Image
                 src="/about/illustration.jpeg"
-                alt="Money King Financial Illustration"
+                alt="Skky Loom Digital Technology Pvt. Ltd."
                 fill
                 priority
                 className="object-cover transform hover:scale-105 transition duration-500 ease-in-out"

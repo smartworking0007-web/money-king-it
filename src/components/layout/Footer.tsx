@@ -35,8 +35,8 @@ export default function Footer() {
           {/* Brand & Contact */}
           <div className="sm:col-span-2 lg:col-span-2 space-y-6">
             <div className="flex items-center gap-1 text-3xl f ont-bold">
-              <span className="text-white">Money</span>
-              <span className="text-[#4DB6AC]">King</span>
+              <span className="text-white">Skky Loom Digital </span>
+              <span className="text-[#4DB6AC]">Technology Pvt. Ltd.</span>
             </div>
             <div className="space-y-4 text-sm leading-relaxed text-gray-400">
               <p className="font-semibold text-gray-500 uppercase tracking-wider">

@@ -13,7 +13,7 @@ const tabs = [
     heading: "Results-Driven Dedicated Marketing Pods",
     desc: "We help your clients grow faster with done for you execution that converts.",
     points: ["Paid media (meta, google, linkedin)", "Funnel optimization & CRO", "Email & Automation workflows", "Reporting & Attribution dashboard"],
-    alt: "Marketing solution with money king",
+    alt: "Marketing solution with Skky Loom Digital Technology Pvt. Ltd.",
     image: "/hero/first1.png"
   },
   {
@@ -23,7 +23,7 @@ const tabs = [
     heading: "Outsourced Fintech Engineering Teams",
     desc: "Build secure, enterprise-grade, and lightning-fast digital platforms specifically engineered.",
     points: ["Web, Mobile & eCommerce Development", "Frontend, Backend, CMS, API & Integration", "QA CI & CD Delivery", "Legacy Modernization"],
-    alt: "Information technology solution with money king",
+    alt: "Information technology solution with Skky Loom Digital Technology Pvt. Ltd.",
     image: "/hero/first2.png"
   },
   {
@@ -33,7 +33,7 @@ const tabs = [
     heading: "Enterprise Data Analytics Solutions",
     desc: "We fill your delivery gaps with specialized pods that integrate into your workflows – invisible to clients, indispensable to you.",
     points: ["GA4 Setup and event tracking", "Attribution modeling & Dashboards", "CRM & Ad platform integration"],
-    alt: "Analysis solution with money king",
+    alt: "Analysis solution with Skky Loom Digital Technology Pvt. Ltd.",
     image: "/hero/first3.png"
   },
   {
@@ -43,7 +43,7 @@ const tabs = [
     heading: "Premium UI/UX Design for Financial Services",
     desc: "We fill your delivery gaps with specialized pods that integrate into your workflows – invisible to clients, indispensable to you.",
     points: ["User Research & Prototyping", "Financial Dashboard Design", "Brand Identity & Visual Design"],
-    alt: "Design solution with money king",
+    alt: "Design solution with Skky Loom Digital Technology Pvt. Ltd.",
     image: "/hero/first4.png"
   }
 ];

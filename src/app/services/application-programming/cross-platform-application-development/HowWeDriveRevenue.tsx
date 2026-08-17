@@ -62,7 +62,7 @@ export default function HowWeDriveRevenue() {
             variant="body"
             className="text-gray-300! text-xs sm:text-sm font-normal leading-relaxed max-w-xl mx-auto"
           >
-            At Money King IT, we turn challenges into opportunities for success.
+            At Skky Loom Digital Technology Pvt. Ltd., we turn challenges into opportunities for success.
             Here&apos;s how we help boost revenue with our custom solutions:
           </Text>
         </div>

@@ -5,164 +5,614 @@ export default function TermsAndConditions() {
   return (
     <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8 font-lexend">
       <div className="max-w-4xl mx-auto bg-white p-8 md:p-12 shadow-lg rounded-xl border border-gray-100">
-        
         {/* Header Section */}
         <div className="border-b pb-6 mb-8 text-center md:text-left">
           <h1 className="text-3xl font-bold text-gray-900 mb-2">
-            TERMS & CONDITIONS
+            TERMS &amp; CONDITIONS
           </h1>
           <p className="text-blue-600 font-semibold uppercase tracking-wide text-sm">
-            Money King Financial Services Pvt. Ltd.
+            Skky Loom Digital Technology Pvt. Ltd.
           </p>
-          <p className="text-gray-500 text-xs mt-2">
-            Effective Date: 5 May 2022
-          </p>
+          <div className="text-gray-500 text-xs mt-2 space-y-1">
+            <p>Effective Date: 14/08/2026</p>
+            <p>Last Updated: 14/08/2026</p>
+          </div>
         </div>
 
         <div className="space-y-8 text-gray-700 leading-relaxed text-sm md:text-base">
-          
           {/* Welcome Text */}
-          <section className="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500">
+          <section className="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 space-y-3">
             <p>
-              Welcome to <strong>Money King Financial Services Pvt. Ltd.</strong> (“Money King”, “Company”, “we”, “our”, or “us”). 
-              These Terms & Conditions (“Terms”) govern your use of our website, applications, CRM systems, cloud telephony services, 
-              financial distribution platform, partner network, and related services. By accessing or using our services, 
-              you agree to comply with and be bound by these Terms.
+              Welcome to <strong>Skky Loom Digital Technology Pvt. Ltd.</strong>{" "}
+              (&quot;Company&quot;, &quot;we&quot;, &quot;us&quot;, or
+              &quot;our&quot;). These Terms &amp; Conditions (&quot;Terms&quot;)
+              govern your access to and use of our website, software, SaaS
+              products, technology solutions, and IT services.
+            </p>
+            <p>
+              By accessing our website or purchasing/using our services, you
+              agree to these Terms.
             </p>
           </section>
 
           {/* Section 1 */}
           <section>
-            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">1. Company Overview</h2>
-            <p>
-              Money King Financial Services Pvt. Ltd. operates a technology-enabled B2B financial distribution platform that 
-              facilitates the distribution of financial products including:
+            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+              1. About Our Services
+            </h2>
+            <p className="mb-2">
+              Skky Loom Digital Technology Pvt. Ltd. provides digital and
+              technology services, which may include:
             </p>
-            <ul className="list-disc ml-6 mt-2 grid grid-cols-1 md:grid-cols-2 gap-1 ">
-              <li>Personal Loans</li>
-              <li>Business Loans</li>
-              <li>Home Loans</li>
-              <li>Loan Against Property (LAP)</li>
-              <li>Car Loans</li>
-              <li>Mutual Funds</li>
-              <li>Insurance Products</li>
-              <li>Credit Cards (future services)</li>
+            <ul className="list-disc ml-6 space-y-1">
+              <li>Website and web application development</li>
+              <li>Mobile application development</li>
+              <li>Software development</li>
+              <li>CRM and business management solutions</li>
+              <li>SaaS products</li>
+              <li>Cloud and technology solutions</li>
+              <li>AI and automation solutions</li>
+              <li>API and software integrations</li>
+              <li>Digital transformation services</li>
+              <li>UI/UX design</li>
+              <li>Software maintenance and support</li>
+              <li>Other IT and digital services agreed with the client</li>
             </ul>
+            <p className="mt-3">
+              Specific services, deliverables, timelines and pricing may be
+              defined in a separate quotation, proposal, Statement of Work
+              (&quot;SOW&quot;), purchase order, or service agreement.
+            </p>
           </section>
 
-          {/* Section 2 & 3 Combined for flow */}
-          <section className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div>
-              <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">2. Eligibility</h2>
-              <ul className="list-disc ml-6 space-y-1">
-                <li>You are at least 18 years old.</li>
-                <li>You are legally capable of entering contracts.</li>
-                <li>All provided information is accurate.</li>
-              </ul>
-            </div>
-            <div>
-              <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">3. Services Provided</h2>
-              <ul className="list-disc ml-6 space-y-1">
-                <li>Lead generation & distribution</li>
-                <li>CRM & telephony solutions</li>
-                <li>Loan application assistance</li>
-                <li>Partner onboarding systems</li>
-              </ul>
-            </div>
+          {/* Section 2 */}
+          <section>
+            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+              2. Eligibility
+            </h2>
+            <p className="mb-3">
+              You must have the legal capacity to enter into a binding agreement
+              to purchase or use our services.
+            </p>
+            <p>
+              If you are using our services on behalf of a company or
+              organisation, you confirm that you have authority to bind that
+              organisation to these Terms.
+            </p>
+          </section>
+
+          {/* Section 3 */}
+          <section>
+            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+              3. Account and Access
+            </h2>
+            <p className="mb-2">
+              Certain services may require you to create an account or provide
+              information such as your name, business details, email address and
+              contact information.
+            </p>
+            <p className="mb-2 font-semibold">You are responsible for:</p>
+            <ul className="list-disc ml-6 space-y-1 mb-3">
+              <li>Providing accurate information</li>
+              <li>Maintaining the confidentiality of login credentials</li>
+              <li>Preventing unauthorised access</li>
+              <li>Informing us promptly of any suspected security breach</li>
+            </ul>
+            <p>
+              We may suspend or restrict access where we reasonably believe
+              there has been misuse, fraud, security risk, or violation of these
+              Terms.
+            </p>
           </section>
 
           {/* Section 4 */}
           <section>
-            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">4. Partner / DSA Terms</h2>
-            <div className="bg-gray-50 p-5 rounded-lg border border-gray-200">
-              <p className="mb-3 font-semibold">Partners and channel associates agree to:</p>
-              <ul className="list-disc ml-6 space-y-2">
-                <li>Use the platform only for lawful business purposes.</li>
-                <li>Not engage in misleading sales practices or misuse customer info.</li>
-                <li>Maintain customer confidentiality and comply with RBI/NBFC regulations.</li>
-                <li>Take full responsibility for their own business conduct.</li>
-              </ul>
-            </div>
-          </section>
-
-          {/* Section 5 - Crucial Refusal */}
-          <section className="bg-red-50 p-6 rounded-lg border border-red-100">
-            <h2 className="text-xl font-bold text-red-800 mb-3 uppercase tracking-tight">5. No Guarantee of Approval</h2>
-            <p className="font-medium">
-              Money King does not guarantee Loan approval, Credit Card approval, Insurance issuance, or Mutual Fund returns. 
-              All approvals are subject to eligibility criteria, banking policies, NBFC policies, and third-party verification.
+            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+              4. Project Scope
+            </h2>
+            <p className="mb-3">
+              For custom development projects, the agreed scope will be
+              described in the applicable proposal, quotation, SOW, or
+              agreement.
+            </p>
+            <p className="mb-3">
+              Any work outside the agreed scope may be treated as additional
+              work and may result in additional charges and/or changes to the
+              delivery timeline.
+            </p>
+            <p>
+              Changes requested after project approval may require written
+              confirmation from both parties.
             </p>
           </section>
 
-          {/* Section 6 & 7 */}
-          <section className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="p-4 border rounded-lg">
-              <h2 className="text-lg font-bold text-gray-800 mb-2 uppercase">6. Fees & Payments</h2>
-              <p className="text-sm">Includes subscription, platform access, CRM, and telephony charges. <strong>All payments are non-refundable</strong> unless agreed in writing.</p>
-            </div>
-            <div className="p-4 border rounded-lg">
-              <h2 className="text-lg font-bold text-gray-800 mb-2 uppercase">7. Commission & Payouts</h2>
-              <p className="text-sm">Subject to successful disbursal. Payouts can be revised or withheld in cases of fraud or policy violations.</p>
-            </div>
-          </section>
-
-          {/* Section 8 & 9 */}
+          {/* Section 5 */}
           <section>
-            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">8. Prohibited Activities</h2>
-            <p className="text-sm mb-2">Users shall not misrepresent products, use fake documents, engage in spam/abusive calling, or conduct illegal MLM activities.</p>
-            
-            <h2 className="text-xl font-bold text-gray-800 mt-6 mb-3 uppercase tracking-tight">9. Intellectual Property</h2>
-            <p className="text-sm">All software, branding, and CRM systems remain the exclusive property of Money King. Copying, reselling, or reverse engineering is strictly prohibited.</p>
-          </section>
-
-          {/* Section 12 & 15 - Liability and Law */}
-          <section className="space-y-4">
-            <div>
-              <h2 className="text-xl font-bold text-gray-800 mb-2 uppercase">12. Limitation of Liability</h2>
-              <p className="text-sm text-gray-600 ">
-                Money King shall not be liable for business losses, revenue losses, delayed approvals, third-party failures, or technical interruptions.
-              </p>
-            </div>
-            <div className="pt-4 border-t">
-              <h2 className="text-xl font-bold text-gray-800 mb-2 uppercase">15. Governing Law</h2>
-              <p className="text-sm">
-                These Terms shall be governed by the laws of India. Disputes are subject to the jurisdiction of courts located in <strong>Delhi / NCR, India.</strong>
-              </p>
-            </div>
-          </section>
-
-          {/* Section 17 - Contact */}
-          <section className="bg-gray-600 text-white p-8 rounded-2xl">
-            <h2 className="text-xl font-bold mb-4 uppercase tracking-wider text-blue-400">17. Contact Information</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
-              <div>
-                <p className="font-bold">Money King Financial Services Pvt. Ltd.</p>
-                <p>A 39, 2nd Floor, Sector 63, Noida – 201301</p>
-              </div>
-              <div className="md:text-right">
-                <p>Email: info@moneykingfinancial.com</p>
-                <p>Phone: +91 76692 91199</p>
-                <p>Web: www.moneykingfinancial.com</p>
-              </div>
-            </div>
-          </section>
-
-          {/* Declaration */}
-          <div className="mt-10 text-center p-6 border-2 border-dashed border-gray-200 rounded-xl">
-            <h3 className="font-bold text-gray-900 mb-2">DECLARATION</h3>
-            <p className="text-xs text-gray-500 uppercase tracking-widest leading-relaxed">
-              By accessing or using Money King services, platforms, CRM systems, telephony services, or partner programs, 
-              you acknowledge that you have read, understood, and agreed to these Terms & Conditions.
+            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+              5. Pricing and Payment
+            </h2>
+            <p className="mb-3">
+              All prices will be communicated through our quotation, proposal,
+              invoice, subscription plan, or applicable agreement.
             </p>
+            <p className="mb-2 font-semibold">
+              Depending on the service, payment may be required:
+            </p>
+            <ul className="list-disc ml-6 space-y-1 mb-3">
+              <li>In advance</li>
+              <li>In milestones</li>
+              <li>Monthly or annually</li>
+              <li>Upon completion of agreed deliverables</li>
+              <li>
+                According to the payment schedule specified in the agreement
+              </li>
+            </ul>
+            <p className="mb-3">
+              For international clients, payments may be made through supported
+              bank transfers, payment gateways, or other approved payment
+              methods.
+            </p>
+            <p>
+              Applicable taxes, bank charges, currency conversion charges,
+              payment gateway fees, and other transaction charges may be payable
+              by the client unless otherwise agreed.
+            </p>
+          </section>
+
+          {/* Section 6 */}
+          <section>
+            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+              6. International Payments
+            </h2>
+            <p className="mb-3">
+              For clients outside India, invoices may be issued in currencies
+              such as USD, EUR, GBP, SAR, AED, or another agreed currency.
+            </p>
+            <p className="mb-3">
+              International transactions are subject to applicable banking,
+              foreign-exchange, tax, GST, and regulatory requirements.
+            </p>
+            <p>
+              The Company may request information or documents reasonably
+              required for processing international payments and maintaining
+              regulatory records.
+            </p>
+          </section>
+
+          {/* Section 7 */}
+          <section>
+            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+              7. Refund and Cancellation
+            </h2>
+            <p className="mb-3">
+              Refund eligibility will depend on the nature of the service and
+              the applicable agreement.
+            </p>
+            <p className="mb-3">
+              Custom software development, design, consulting, implementation,
+              and other professional services may not be refundable once the
+              relevant work has commenced, except where otherwise agreed in
+              writing or required by applicable law.
+            </p>
+            <p className="mb-3">
+              For SaaS subscriptions, cancellation will be governed by the
+              applicable subscription plan.
+            </p>
+            <p>
+              Any approved refund may be subject to applicable
+              payment-processing, transaction, or administrative charges where
+              legally permissible.
+            </p>
+          </section>
+
+          {/* Section 8 */}
+          <section>
+            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+              8. Delivery and Timelines
+            </h2>
+            <p className="mb-2">
+              We will make reasonable efforts to deliver services within the
+              timelines agreed with the client.
+            </p>
+            <p className="mb-2 font-semibold">
+              Delivery timelines may be affected by:
+            </p>
+            <ul className="list-disc ml-6 space-y-1 mb-3">
+              <li>
+                Delays in receiving information or approvals from the client
+              </li>
+              <li>Changes in project requirements</li>
+              <li>Third-party services</li>
+              <li>Technical dependencies</li>
+              <li>Force majeure events</li>
+              <li>
+                Delays caused by external vendors or infrastructure providers
+              </li>
+            </ul>
+            <p>
+              We will not be responsible for delays caused primarily by
+              circumstances outside our reasonable control.
+            </p>
+          </section>
+
+          {/* Section 9 */}
+          <section>
+            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+              9. Client Responsibilities
+            </h2>
+            <p className="mb-3">
+              The client agrees to provide all information, content,
+              credentials, approvals, access, and other materials reasonably
+              required to perform the services.
+            </p>
+            <p>
+              The client is responsible for ensuring that any content, data,
+              images, software, trademarks, documents, or other materials
+              supplied to us do not violate applicable law or third-party
+              rights.
+            </p>
+          </section>
+
+          {/* Section 10 */}
+          <section>
+            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+              10. Intellectual Property
+            </h2>
+            <p className="mb-2 font-semibold">
+              Unless otherwise agreed in writing:
+            </p>
+            <ul className="list-disc ml-6 space-y-2 mb-3">
+              <li>
+                The Company retains ownership of its pre-existing software,
+                frameworks, libraries, templates, tools, methodologies, systems,
+                know-how, and reusable components.
+              </li>
+              <li>
+                Client-specific deliverables may be transferred or licensed to
+                the client according to the applicable project agreement and
+                payment status.
+              </li>
+              <li>
+                Third-party software, libraries, APIs, fonts, plugins, and other
+                components remain subject to their respective licences.
+              </li>
+            </ul>
+            <p>
+              No intellectual-property transfer will be considered complete
+              until all applicable amounts due to the Company have been paid,
+              unless otherwise agreed in writing.
+            </p>
+          </section>
+
+          {/* Section 11 */}
+          <section>
+            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+              11. Client Data
+            </h2>
+            <p className="mb-3">
+              Where we process information or data on behalf of a client, the
+              client remains responsible for ensuring that it has the
+              appropriate rights, permissions, notices, and lawful basis to
+              provide such data.
+            </p>
+            <p>
+              We will process client data in accordance with applicable
+              agreements and our Privacy Policy.
+            </p>
+          </section>
+
+          {/* Section 12 */}
+          <section>
+            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+              12. Privacy and Data Protection
+            </h2>
+            <p className="mb-3">
+              Your use of our website and services may involve the collection
+              and processing of personal information.
+            </p>
+            <p>
+              Please refer to our Privacy Policy for information regarding how
+              we collect, use, store, and protect personal information.
+            </p>
+          </section>
+
+          {/* Section 13 */}
+          <section>
+            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+              13. Third-Party Services
+            </h2>
+            <p className="mb-3">
+              Our services may integrate with third-party platforms, APIs, cloud
+              providers, payment gateways, communication platforms, hosting
+              providers, or other services.
+            </p>
+            <p className="mb-3">
+              We do not control third-party services and cannot guarantee their
+              continuous availability, functionality, pricing, or policies.
+            </p>
+            <p>
+              Any use of third-party services may also be subject to the third
+              party&apos;s own terms and policies.
+            </p>
+          </section>
+
+          {/* Section 14 */}
+          <section>
+            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+              14. Prohibited Use
+            </h2>
+            <p className="mb-2 font-semibold">
+              You must not use our services to:
+            </p>
+            <ul className="list-disc ml-6 space-y-1 mb-3">
+              <li>Conduct unlawful activities</li>
+              <li>Commit fraud or financial crimes</li>
+              <li>Distribute malware or harmful software</li>
+              <li>Gain unauthorised access to systems</li>
+              <li>Violate intellectual-property rights</li>
+              <li>Abuse, attack, or disrupt systems or networks</li>
+              <li>Store or transmit unlawful content</li>
+              <li>Circumvent security controls</li>
+              <li>
+                Use our services for any purpose prohibited by applicable law
+              </li>
+            </ul>
+            <p>
+              We reserve the right to suspend or terminate services where
+              prohibited or abusive activity is reasonably suspected.
+            </p>
+          </section>
+
+          {/* Section 15 */}
+          <section>
+            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+              15. Security
+            </h2>
+            <p className="mb-3">
+              We take reasonable technical and organisational measures to
+              protect our systems and services.
+            </p>
+            <p className="mb-3">
+              However, no internet-based system can be guaranteed to be
+              completely secure.
+            </p>
+            <p>
+              Clients are responsible for maintaining appropriate security
+              practices for their own systems, accounts, devices, credentials,
+              and data.
+            </p>
+          </section>
+
+          {/* Section 16 */}
+          <section>
+            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+              16. Service Availability
+            </h2>
+            <p className="mb-3">
+              We aim to provide reliable and continuous services but do not
+              guarantee that websites, SaaS products, APIs, servers, or other
+              technology services will always be available without interruption.
+            </p>
+            <p>
+              Maintenance, upgrades, technical failures, third-party outages,
+              security incidents, and circumstances beyond our reasonable
+              control may temporarily affect availability.
+            </p>
+          </section>
+
+          {/* Section 17 */}
+          <section>
+            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+              17. Warranty Disclaimer
+            </h2>
+            <p className="mb-3">
+              Except where expressly provided in a written agreement, our
+              services are provided on an &quot;as available&quot; and &quot;as
+              agreed&quot; basis.
+            </p>
+            <p>
+              We do not guarantee that a particular technology solution will
+              achieve a specific business result, revenue level, customer
+              acquisition target, ranking, conversion rate, or other commercial
+              outcome.
+            </p>
+          </section>
+
+          {/* Section 18 */}
+          <section>
+            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+              18. Limitation of Liability
+            </h2>
+            <p className="mb-3">
+              To the maximum extent permitted by applicable law, Skky Loom
+              Digital Technology Pvt. Ltd. will not be liable for indirect,
+              incidental, special, consequential, or loss-of-profit damages
+              arising from the use of our website or services.
+            </p>
+            <p className="mb-3">
+              Our aggregate liability relating to a particular service or
+              project will, where legally permissible, be limited to the amount
+              actually paid by the client for that specific service during the
+              applicable period, unless otherwise agreed in writing.
+            </p>
+            <p>
+              Nothing in these Terms excludes liability that cannot legally be
+              excluded.
+            </p>
+          </section>
+
+          {/* Section 19 */}
+          <section>
+            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+              19. Confidentiality
+            </h2>
+            <p className="mb-3">
+              Both parties may receive confidential business, technical,
+              financial, operational, or commercial information.
+            </p>
+            <p>
+              Each party agrees to use reasonable measures to protect
+              confidential information and not disclose it to unauthorised third
+              parties, except where disclosure is required by law or permitted
+              by the applicable agreement.
+            </p>
+          </section>
+
+          {/* Section 20 */}
+          <section>
+            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+              20. Force Majeure
+            </h2>
+            <p>
+              We will not be responsible for failure or delay caused by
+              circumstances beyond our reasonable control, including natural
+              disasters, war, terrorism, government actions, internet or
+              telecommunications failures, major infrastructure outages,
+              epidemics, labour disruptions, or third-party service failures.
+            </p>
+          </section>
+
+          {/* Section 21 */}
+          <section>
+            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+              21. Suspension and Termination
+            </h2>
+            <p className="mb-2">
+              We may suspend or terminate access to services where:
+            </p>
+            <ul className="list-disc ml-6 space-y-1 mb-3">
+              <li>The client materially breaches these Terms</li>
+              <li>Payments remain unpaid</li>
+              <li>The service is being used unlawfully</li>
+              <li>There is a significant security risk</li>
+              <li>Fraudulent or abusive activity is suspected</li>
+            </ul>
+            <p>
+              Termination will not affect rights or obligations that accrued
+              before termination.
+            </p>
+          </section>
+
+          {/* Section 22 */}
+          <section>
+            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+              22. Changes to Services and Terms
+            </h2>
+            <p className="mb-3">
+              We may modify, update, discontinue, or introduce features to our
+              services from time to time.
+            </p>
+            <p>
+              We may also update these Terms when necessary. The updated version
+              will be published on our website with a revised “Last Updated”
+              date.
+            </p>
+          </section>
+
+          {/* Section 23 */}
+          <section>
+            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+              23. Governing Law
+            </h2>
+            <p className="mb-3">
+              Unless a separate written agreement provides otherwise, these
+              Terms shall be governed by the laws of India.
+            </p>
+            <p className="mb-3">
+              Subject to applicable law, courts having jurisdiction in [Noida,
+              Uttar Pradesh, India] shall have jurisdiction over disputes
+              arising from these Terms.
+            </p>
+            <p>
+              For international clients, the parties may agree to a separate
+              dispute-resolution mechanism, arbitration clause, or jurisdiction
+              in the applicable service agreement.
+            </p>
+          </section>
+
+          {/* Section 24 */}
+          <section>
+            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+              24. Severability
+            </h2>
+            <p>
+              If any provision of these Terms is determined to be invalid or
+              unenforceable, the remaining provisions will continue to remain
+              effective.
+            </p>
+          </section>
+
+          {/* Section 25 */}
+          <section>
+            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+              25. Entire Agreement
+            </h2>
+            <p className="mb-3">
+              These Terms, together with any applicable quotation, proposal,
+              SOW, purchase order, subscription agreement, privacy policy, and
+              other written agreement, constitute the understanding between the
+              Company and the client regarding the relevant services.
+            </p>
+            <p>
+              Where there is a conflict, the specific written agreement for the
+              relevant service will prevail to the extent of that conflict.
+            </p>
+          </section>
+
+          {/* Section 26 - Contact */}
+          <section className="bg-gray-800 text-white p-8 rounded-2xl">
+            <h2 className="text-xl font-bold mb-4 uppercase tracking-wider text-blue-400">
+              26. Contact Us
+            </h2>
+            <div className="space-y-4 text-sm">
+              <div>
+                <p className="font-bold text-base mb-1">
+                  Skky Loom Digital Technology Pvt. Ltd.
+                </p>
+                <p className="font-semibold text-gray-300">
+                  Registered/Business Address:
+                </p>
+                <p className="text-gray-200">
+                  A39, 2nd Floor, Sector 63, Noida, Uttar Pradesh – 201301,
+                  India
+                </p>
+              </div>
+              <div className="space-y-1 text-gray-200">
+                <p>
+                  <strong className="text-gray-300">Email:</strong> [
+                  info@moneykingfinancial.com]
+                </p>
+                <p>
+                  <strong className="text-gray-300">Website:</strong>{" "}
+                  [https://www.skkyloomdigital.com/]
+                </p>
+                <p>
+                  <strong className="text-gray-300">Phone:</strong> [
+                  9311284229]
+                </p>
+              </div>
+              <p className="text-xs text-gray-400 pt-2 border-t border-gray-700">
+                For questions regarding these Terms, please contact us using the
+                details above.
+              </p>
+            </div>
+          </section>
+
+          {/* Copyright */}
+          <div className="pt-4 border-t text-sm text-gray-500 text-center font-medium">
+            © 2026 Skky Loom Digital Technology Pvt. Ltd. All Rights Reserved.
           </div>
         </div>
 
         {/* Footer Link */}
         <div className="mt-12 pt-6 border-t text-center">
-          <Link href="/" className="text-blue-600 font-semibold hover:text-blue-800 flex items-center justify-center gap-2 transition-all">
+          <Link
+            href="/"
+            className="text-blue-600 font-semibold hover:text-blue-800 flex items-center justify-center gap-2 transition-all"
+          >
             <span>←</span> Back to Home
           </Link>
-        </div> 
+        </div>
       </div>
     </div>
   );

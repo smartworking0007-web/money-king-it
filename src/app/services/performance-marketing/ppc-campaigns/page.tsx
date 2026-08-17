@@ -29,7 +29,7 @@ export default function Page() {
         <div className="absolute inset-0 z-0">
           <Image
             src="/ppc/1.png"
-            alt="social media ads with money king"
+            alt="social media ads with Skky Loom Digital Technology Pvt. Ltd."
             fill
             priority
             className="object-cover object-center"

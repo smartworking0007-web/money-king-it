@@ -118,7 +118,7 @@ export default function JourneyShowcase() {
 
         <div className="lg:col-span-7 space-y-12">
           <p className="text-neutral-400 text-sm sm:text-base leading-relaxed font-light max-w-2xl">
-            With Money King IT, our specialized tech pods operate in perfect
+            With Skky Loom Digital Technology Pvt. Ltd., our specialized tech pods operate in perfect
             sync. We automatically allocate software engineers and marketing
             experts based on your sprint deadlines.
           </p>

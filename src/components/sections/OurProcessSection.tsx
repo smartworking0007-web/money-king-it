@@ -20,7 +20,7 @@ const processSteps = [
     desc: "Every great partnership starts with clarity. We take time to understand your world before we build in it.",
     points: ["Goal Alignment", "Context Mapping", "Brief to Blueprint"],
     image: "/process/1.png",
-    alt: "Goal mapping with money king",
+    alt: "Goal mapping with Skky Loom Digital Technology Pvt. Ltd.",
   },
   {
     id: "Scoping",

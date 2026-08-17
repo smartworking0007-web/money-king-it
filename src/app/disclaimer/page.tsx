@@ -4,8 +4,8 @@ import DisclaimerContent from "./DisclaimerContent";
 import CTA from "./CTA";
 
 export const metadata: Metadata = {
-  title: "Disclaimer | Money King IT Solutions",
-  description: "Read the official Disclaimer of Money King IT Solutions regarding website usage, service limitations, intellectual property, cybersecurity notices, and liability policies.",
+  title: "Disclaimer | Skky Loom Digital Technology Pvt. Ltd.",
+  description: "Read the official Disclaimer of Skky Loom Digital Technology Pvt. Ltd. regarding website usage, service limitations, intellectual property, cybersecurity notices, and liability policies.",
 };
 
 export default function DisclaimerPage() {

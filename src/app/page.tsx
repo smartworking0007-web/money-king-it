@@ -5,7 +5,6 @@ import StatsSection from "@/components/sections/StatsSection";
 import GrowthSection from "@/components/sections/GrowthSection";
 import WhatWeDoSection from "@/components/sections/WhatWeDoSection";
 import WhiteLabelSection from "@/components/sections/WhiteLabelSection";
-// import WhyChooseMoneyKingIT from "@/components/sections/WhyChooseMoneyKingIT";
 import OurProcessSection from "@/components/sections/OurProcessSection";
 import CateredIndustries from "@/components/sections/CateredIndustries";
 import FAQSection from "@/components/sections/FAQSection";
@@ -20,7 +19,6 @@ export default function Home() {
       <WhatWeDoSection />
       <IndustriesSection />
       <WhiteLabelSection />
-      {/* <WhyChooseMoneyKingIT /> */}
       <OurProcessSection />
       <CateredIndustries />
       <FAQSection />

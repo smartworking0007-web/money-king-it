@@ -53,7 +53,7 @@ export default function CommerceArchitectureSection() {
             variant="body"
             className="text-gray-300! text-base sm:text-lg font-normal leading-relaxed max-w-2xl mx-auto"
           >
-            Money King Software builds decoupled sales frameworks designed specifically to maximize checkout retention and clean cloud pipeline scaling.
+            Skky Loom Digital Technology Pvt. Ltd. builds decoupled sales frameworks designed specifically to maximize checkout retention and clean cloud pipeline scaling.
           </Text>
          
         </div>

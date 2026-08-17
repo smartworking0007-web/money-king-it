@@ -48,7 +48,7 @@ export default function ModernVisualApiInfrastructure() {
             variant="h4"
             className="text-gray-300! text-xs sm:text-sm md:text-base font-normal leading-relaxed max-w-2xl mx-auto"
           >
-            We reject standard single-point topologies. Money King IT constructs
+            We reject standard single-point topologies. Skky Loom Digital Technology Pvt. Ltd. constructs
             isolated sandboxed transaction pipelines optimized specifically to
             eliminate execution latency.
           </Text>

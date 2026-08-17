@@ -201,7 +201,7 @@ export default function VideoTestimonialSection() {
             {/* Main Editorial Testimonial Review Text Content block */}
             <p className="text-xl sm:text-2xl md:text-[26px] font-medium text-neutral-200 leading-[1.45] tracking-tight font-sans">
               &ldquo;Truly impressive. The digital frameworks and customized
-              FinTech solutions provided by Money King IT are fast, highly
+              FinTech solutions provided by Skky Loom Digital Technology Pvt. Ltd. are fast, highly
               secure, and blend into daily financial operations without any
               friction. We bring your technology vision to life with agile
               development, functional architectures, and cutting-edge software
@@ -223,7 +223,7 @@ export default function VideoTestimonialSection() {
                 Amarjeet Chaddhha
               </h4>
               <p className="text-xs font-mono uppercase tracking-[0.15em] text-neutral-500 font-semibold">
-                CEO at Money King IT
+                CEO at Skky Loom Digital Technology Pvt. Ltd.
               </p>
             </div>
           </div>

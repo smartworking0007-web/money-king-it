@@ -5,15 +5,15 @@ import { ChevronDown } from "lucide-react";
 
 const faqData = [
   {
-    q: 'What exactly is Money King IT, and how do your dedicated "Pods" work?',
-    a: 'Money King IT is an enterprise-grade digital solutions and software engineering partner. Instead of traditional outsourcing where you hire individual freelancers, we provide specialized, fully-managed "Pods"—cohesive teams of developers, marketing analysts, and UI/UX designers who integrate directly into your workflows. They act as an instantaneous extension of your in-house team to scale execution with zero hiring friction.',
+    q: 'What exactly is Skky Loom Digital Technology Pvt. Ltd., and how do your dedicated "Pods" work?',
+    a: 'Skky Loom Digital Technology Pvt. Ltd. is an enterprise-grade digital solutions and software engineering partner. Instead of traditional outsourcing where you hire individual freelancers, we provide specialized, fully-managed "Pods"—cohesive teams of developers, marketing analysts, and UI/UX designers who integrate directly into your workflows. They act as an instantaneous extension of your in-house team to scale execution with zero hiring friction.',
   },
   {
     q: "What IT and digital services are integrated into your delivery models?",
     a: "We structurally align our core engineering and digital capabilities into four scalable pillars: Development & Engineering (Custom web/mobile apps, API integrations), Marketing & Conversion (Data-driven performance marketing, CRO), Enterprise Automation (CRM, ERP implementation), and Cloud & Future-Gen Tech (Managed cloud, cybersecurity, AI integration).",
   },
   {
-    q: "Does Money King IT operate as a white-label partner for agencies?",
+    q: "Does Skky Loom Digital Technology Pvt. Ltd. operate as a white-label partner for agencies?",
     a: "Yes, absolutely. We specialize in comprehensive white-label execution. Our technical pods operate completely behind the scenes under your brand identity and guidelines. We manage the entire infrastructure and delivery timeline while you retain full ownership of client communication.",
   },
   {
