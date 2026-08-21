@@ -4,8 +4,8 @@ export default function ContactSupport() {
   const contactMethods = [
     {
       title: "Email",
-      value: "info@moneykingfinancial.com",
-      href: "mailto:info@moneykingfinancial.com",
+      value: "infoskkyloomdigital.com",
+      href: "mailto:infoskkyloomdigital.com",
       icon: Mail,
     },
     {
