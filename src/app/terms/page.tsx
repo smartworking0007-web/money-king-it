@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export default function TermsAndConditions() {
   return (
-    <div className="min-h-screen bg-gray-50 pt-28 pb-12 sm:py-16 px-4 sm:px-6 lg:px-8 font-lexend">
-      <div className="max-w-4xl mx-auto bg-white p-5 sm:p-8 md:p-12 shadow-lg rounded-xl sm:rounded-2xl border border-gray-100">
+    <div className="min-h-screen bg-gray-50 pt-28 sm:pt-32 md:pt-36 lg:pt-40 pb-16 px-4 sm:px-6 lg:px-8 font-lexend">
+      <div className="max-w-4xl mx-auto bg-white p-6 sm:p-10 md:p-12 shadow-lg rounded-2xl border border-gray-100">
         {/* Header Section */}
         <div className="border-b pb-6 mb-8 text-left">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-2 leading-tight">
@@ -569,46 +569,44 @@ export default function TermsAndConditions() {
                 <p>
                   Skky Loom Digital Technology Pvt. Ltd.
                 </p>
-                <p>
+                <p >
                   Registered/Business Address:
                 </p>
-                <p>
+                <p >
                   A39, 2nd Floor, Sector 63, Noida, Uttar Pradesh – 201301,
                   India
                 </p>
               </div>
               <div>
                 <p>
-                  <strong className="text-gray-300">Email:</strong>{" "}
+                  <strong>Email:</strong>{" "}
                   <a
                     href="mailto:info@moneykingfinancial.com"
-                    className="hover:underline text-blue-300 break-all"
                   >
                     info@moneykingfinancial.com
                   </a>
                 </p>
                 <p>
-                  <strong className="text-gray-300">Website:</strong>{" "}
+                  <strong>Website:</strong>{" "}
                   <a
                     href="https://www.skkyloomdigital.com/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="hover:underline text-blue-300 break-all"
+                    
                   >
                     https://www.skkyloomdigital.com/
                   </a>
                 </p>
                 <p>
-                  <strong className="text-gray-300">Phone:</strong>{" "}
+                  <strong >Phone:</strong>{" "}
                   <a
                     href="tel:+919311284229"
-                    className="hover:underline text-blue-300"
                   >
                     +91 9311284229
                   </a>
                 </p>
               </div>
-              <p className="text-xs text-gray-400 pt-3 border-t border-gray-700">
+              <p>
                 For questions regarding these Terms, please contact us using the
                 details above.
               </p>
@@ -617,7 +615,7 @@ export default function TermsAndConditions() {
 
           {/* Copyright */}
           <div className="pt-4 border-t text-xs sm:text-sm text-gray-500 text-center font-medium">
-            © {new Date().getFullYear()} Skky Loom Digital Technology Pvt. Ltd. All Rights Reserved.
+            © 2026 Skky Loom Digital Technology Pvt. Ltd. All Rights Reserved.
           </div>
         </div>
 
