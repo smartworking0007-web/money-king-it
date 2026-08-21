@@ -3,7 +3,7 @@ import SupportOptions from "./SupportOptions";
 import ResourcesCenter from "./ResourcesCenter";
 import FAQSection from "./FAQSection";
 import ContactSupport from "./ContactSupport";
-import CTA from "./CTA";
+// import CTA from "./CTA";
 
 export default function SupportCenterPage() {
   return (
@@ -11,9 +11,10 @@ export default function SupportCenterPage() {
       <Hero />
       <SupportOptions />
       <ResourcesCenter />
+       <ContactSupport />
       <FAQSection />
-      <ContactSupport />
-      <CTA />
+     
+      {/* <CTA /> */}
     </main>
   );
 }

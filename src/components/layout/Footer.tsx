@@ -29,14 +29,13 @@ const footerData = {
 export default function Footer() {
   return (
     <footer className="w-full bg-[#0B1528] text-gray-400 py-16 font-lexend">
-      <div className="max-w-1400px mx-auto px-8 md:px-16 lg:px-24">
+      <div className="max-w-[1400px] mx-auto px-8 md:px-16 lg:px-24">
         {/* Main Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-12 mb-16">
           {/* Brand & Contact */}
           <div className="sm:col-span-2 lg:col-span-2 space-y-6">
-            <div className="flex items-center gap-1 text-3xl f ont-bold">
-              <span className="text-white">Skky Loom Digital </span>
-              <span className="text-[#4DB6AC]">Technology Pvt. Ltd.</span>
+            <div className="flex items-center gap-1 text-3xl font-bold">
+              <span className="text-white">Skky Loom Digital Technology Pvt. Ltd.</span>
             </div>
             <div className="space-y-4 text-sm leading-relaxed text-gray-400">
               <p className="font-semibold text-gray-500 uppercase tracking-wider">
@@ -60,7 +59,6 @@ export default function Footer() {
           </div>
 
           {/* Links */}
-
           {[
             { title: "Company", links: footerData.company },
             { title: "Quick Links", links: footerData.quickLinks },
@@ -90,21 +88,23 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-sm text-gray-500">
-            © {new Date().getFullYear()} Money King IT Solutions. All Rights
+            © {new Date().getFullYear()} Skky Loom Digital Technology Pvt. Ltd. All Rights
             Reserved.
           </div>
 
           <div className="flex gap-6 text-gray-400">
             <Link
-              href="https://www.facebook.com/people/Money-King-Financial-Services-PVT-LTD/100094636427010/"
+              href="https://www.facebook.com/profile.php?id=61593645623621"
               target="_blank"
+              rel="noopener noreferrer"
               className="hover:text-[#4DB6AC] transition-all"
             >
               <FaFacebook size={22} />
             </Link>
             <Link
-              href="https://www.instagram.com/money.king.official/"
+              href="https://www.instagram.com/skkyloomdigital_/?hl=en"
               target="_blank"
+              rel="noopener noreferrer"
               className="hover:text-[#4DB6AC] transition-all"
             >
               <FaInstagram size={22} />
@@ -112,6 +112,7 @@ export default function Footer() {
             <Link
               href="https://www.linkedin.com/in/moneyking/"
               target="_blank"
+              rel="noopener noreferrer"
               className="hover:text-[#4DB6AC] transition-all"
             >
               <FaLinkedin size={22} />
@@ -119,13 +120,15 @@ export default function Footer() {
             <Link
               href="https://www.youtube.com/@moneykingf"
               target="_blank"
-              className="hover:text-[#4DB6AC] transition-all" 
+              rel="noopener noreferrer"
+              className="hover:text-[#4DB6AC] transition-all"
             >
               <FaYoutube size={22} />
             </Link>
             <Link
               href="https://x.com/services9871"
               target="_blank"
+              rel="noopener noreferrer"
               className="hover:text-[#4DB6AC] transition-all"
             >
               <X size={22} />
