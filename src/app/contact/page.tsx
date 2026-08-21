@@ -38,9 +38,9 @@ export default function ContactPage() {
 
   return (
     <>
-      <section className="w-full bg-black text-white py-16 px-4 sm:px-6 lg:px-12 min-h-screen flex items-center">
-        <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-          {/* Left Side: Get in Touch Header, Description & Form */}
+      <section className="w-full bg-black text-white pt-28 pb-16 sm:py-24 lg:py-28 px-4 sm:px-6 lg:px-12 min-h-screen flex items-center">
+        <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+          {/* Left Side: Form */}
           <div className="flex flex-col space-y-6">
             <div>
               <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-white mb-2">
@@ -78,7 +78,7 @@ export default function ContactPage() {
                 <select
                   name="budget"
                   defaultValue=""
-                  className="w-full bg-[#121212] border border-zinc-800 focus:border-[#00D094] rounded-xl p-3.5 text-sm text-zinc-500 outline-none transition-colors"
+                  className="w-full bg-[#121212] border border-zinc-800 focus:border-[#00D094] rounded-xl p-3.5 text-sm text-zinc-400 outline-none transition-colors"
                 >
                   <option value="" disabled>
                     Budget
@@ -109,7 +109,7 @@ export default function ContactPage() {
                 <button
                   type="submit"
                   disabled={loading}
-                  className="bg-[#CCFF00] hover:bg-[#b3e600] text-black font-bold px-8 py-3.5 rounded-xl text-sm transition-all duration-300 shadow-lg cursor-pointer"
+                  className="w-full sm:w-auto bg-[#CCFF00] hover:bg-[#b3e600] text-black font-bold px-8 py-3.5 rounded-xl text-sm transition-all duration-300 shadow-lg cursor-pointer disabled:opacity-50"
                 >
                   {loading ? "SENDING..." : "Submit Now"}
                 </button>
@@ -118,7 +118,7 @@ export default function ContactPage() {
           </div>
 
           {/* Right Side: Image Container */}
-          <div className="relative w-full h-87.5 sm:h-112.5 lg:h-125 rounded-3xl overflow-hidden shadow-2xl">
+          <div className="relative w-full h-[300px] sm:h-[450px] lg:h-[500px] rounded-3xl overflow-hidden shadow-2xl">
             <Image
               src="/Contact/1.png"
               alt="contact us"
@@ -127,7 +127,6 @@ export default function ContactPage() {
               className="object-cover object-center grayscale contrast-125"
               sizes="(max-width: 1024px) 100vw, 50vw"
             />
-            {/* Subtle gradient border/overlay */}
             <div className="absolute inset-0 border border-white/10 rounded-3xl pointer-events-none" />
           </div>
         </div>

@@ -3,14 +3,14 @@ import Link from "next/link";
 
 export default function TermsAndConditions() {
   return (
-    <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8 font-lexend">
-      <div className="max-w-4xl mx-auto bg-white p-8 md:p-12 shadow-lg rounded-xl border border-gray-100">
+    <div className="min-h-screen bg-gray-50 pt-28 pb-12 sm:py-16 px-4 sm:px-6 lg:px-8 font-lexend">
+      <div className="max-w-4xl mx-auto bg-white p-5 sm:p-8 md:p-12 shadow-lg rounded-xl sm:rounded-2xl border border-gray-100">
         {/* Header Section */}
-        <div className="border-b pb-6 mb-8 text-center md:text-left">
-          <h1 className="text-3xl font-bold text-gray-900 mb-2">
+        <div className="border-b pb-6 mb-8 text-left">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-2 leading-tight">
             TERMS &amp; CONDITIONS
           </h1>
-          <p className="text-blue-600 font-semibold uppercase tracking-wide text-sm">
+          <p className="text-blue-600 font-semibold uppercase tracking-wide text-xs sm:text-sm">
             Skky Loom Digital Technology Pvt. Ltd.
           </p>
           <div className="text-gray-500 text-xs mt-2 space-y-1">
@@ -19,9 +19,9 @@ export default function TermsAndConditions() {
           </div>
         </div>
 
-        <div className="space-y-8 text-gray-700 leading-relaxed text-sm md:text-base">
+        <div className="space-y-8 text-gray-700 leading-relaxed text-sm sm:text-base">
           {/* Welcome Text */}
-          <section className="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 space-y-3">
+          <section>
             <p>
               Welcome to <strong>Skky Loom Digital Technology Pvt. Ltd.</strong>{" "}
               (&quot;Company&quot;, &quot;we&quot;, &quot;us&quot;, or
@@ -37,14 +37,14 @@ export default function TermsAndConditions() {
 
           {/* Section 1 */}
           <section>
-            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+            <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
               1. About Our Services
             </h2>
             <p className="mb-2">
               Skky Loom Digital Technology Pvt. Ltd. provides digital and
               technology services, which may include:
             </p>
-            <ul className="list-disc ml-6 space-y-1">
+            <ul className="list-disc ml-5 sm:ml-6 space-y-1">
               <li>Website and web application development</li>
               <li>Mobile application development</li>
               <li>Software development</li>
@@ -67,7 +67,7 @@ export default function TermsAndConditions() {
 
           {/* Section 2 */}
           <section>
-            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+            <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
               2. Eligibility
             </h2>
             <p className="mb-3">
@@ -83,7 +83,7 @@ export default function TermsAndConditions() {
 
           {/* Section 3 */}
           <section>
-            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+            <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
               3. Account and Access
             </h2>
             <p className="mb-2">
@@ -92,7 +92,7 @@ export default function TermsAndConditions() {
               contact information.
             </p>
             <p className="mb-2 font-semibold">You are responsible for:</p>
-            <ul className="list-disc ml-6 space-y-1 mb-3">
+            <ul className="list-disc ml-5 sm:ml-6 space-y-1 mb-3">
               <li>Providing accurate information</li>
               <li>Maintaining the confidentiality of login credentials</li>
               <li>Preventing unauthorised access</li>
@@ -107,7 +107,7 @@ export default function TermsAndConditions() {
 
           {/* Section 4 */}
           <section>
-            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+            <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
               4. Project Scope
             </h2>
             <p className="mb-3">
@@ -128,7 +128,7 @@ export default function TermsAndConditions() {
 
           {/* Section 5 */}
           <section>
-            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+            <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
               5. Pricing and Payment
             </h2>
             <p className="mb-3">
@@ -138,7 +138,7 @@ export default function TermsAndConditions() {
             <p className="mb-2 font-semibold">
               Depending on the service, payment may be required:
             </p>
-            <ul className="list-disc ml-6 space-y-1 mb-3">
+            <ul className="list-disc ml-5 sm:ml-6 space-y-1 mb-3">
               <li>In advance</li>
               <li>In milestones</li>
               <li>Monthly or annually</li>
@@ -161,7 +161,7 @@ export default function TermsAndConditions() {
 
           {/* Section 6 */}
           <section>
-            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+            <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
               6. International Payments
             </h2>
             <p className="mb-3">
@@ -181,7 +181,7 @@ export default function TermsAndConditions() {
 
           {/* Section 7 */}
           <section>
-            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+            <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
               7. Refund and Cancellation
             </h2>
             <p className="mb-3">
@@ -207,7 +207,7 @@ export default function TermsAndConditions() {
 
           {/* Section 8 */}
           <section>
-            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+            <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
               8. Delivery and Timelines
             </h2>
             <p className="mb-2">
@@ -217,7 +217,7 @@ export default function TermsAndConditions() {
             <p className="mb-2 font-semibold">
               Delivery timelines may be affected by:
             </p>
-            <ul className="list-disc ml-6 space-y-1 mb-3">
+            <ul className="list-disc ml-5 sm:ml-6 space-y-1 mb-3">
               <li>
                 Delays in receiving information or approvals from the client
               </li>
@@ -237,7 +237,7 @@ export default function TermsAndConditions() {
 
           {/* Section 9 */}
           <section>
-            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+            <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
               9. Client Responsibilities
             </h2>
             <p className="mb-3">
@@ -255,13 +255,13 @@ export default function TermsAndConditions() {
 
           {/* Section 10 */}
           <section>
-            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+            <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
               10. Intellectual Property
             </h2>
             <p className="mb-2 font-semibold">
               Unless otherwise agreed in writing:
             </p>
-            <ul className="list-disc ml-6 space-y-2 mb-3">
+            <ul className="list-disc ml-5 sm:ml-6 space-y-2 mb-3">
               <li>
                 The Company retains ownership of its pre-existing software,
                 frameworks, libraries, templates, tools, methodologies, systems,
@@ -286,7 +286,7 @@ export default function TermsAndConditions() {
 
           {/* Section 11 */}
           <section>
-            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+            <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
               11. Client Data
             </h2>
             <p className="mb-3">
@@ -303,7 +303,7 @@ export default function TermsAndConditions() {
 
           {/* Section 12 */}
           <section>
-            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+            <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
               12. Privacy and Data Protection
             </h2>
             <p className="mb-3">
@@ -318,7 +318,7 @@ export default function TermsAndConditions() {
 
           {/* Section 13 */}
           <section>
-            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+            <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
               13. Third-Party Services
             </h2>
             <p className="mb-3">
@@ -338,13 +338,13 @@ export default function TermsAndConditions() {
 
           {/* Section 14 */}
           <section>
-            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+            <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
               14. Prohibited Use
             </h2>
             <p className="mb-2 font-semibold">
               You must not use our services to:
             </p>
-            <ul className="list-disc ml-6 space-y-1 mb-3">
+            <ul className="list-disc ml-5 sm:ml-6 space-y-1 mb-3">
               <li>Conduct unlawful activities</li>
               <li>Commit fraud or financial crimes</li>
               <li>Distribute malware or harmful software</li>
@@ -365,7 +365,7 @@ export default function TermsAndConditions() {
 
           {/* Section 15 */}
           <section>
-            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+            <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
               15. Security
             </h2>
             <p className="mb-3">
@@ -385,7 +385,7 @@ export default function TermsAndConditions() {
 
           {/* Section 16 */}
           <section>
-            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+            <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
               16. Service Availability
             </h2>
             <p className="mb-3">
@@ -402,7 +402,7 @@ export default function TermsAndConditions() {
 
           {/* Section 17 */}
           <section>
-            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+            <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
               17. Warranty Disclaimer
             </h2>
             <p className="mb-3">
@@ -420,7 +420,7 @@ export default function TermsAndConditions() {
 
           {/* Section 18 */}
           <section>
-            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+            <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
               18. Limitation of Liability
             </h2>
             <p className="mb-3">
@@ -443,7 +443,7 @@ export default function TermsAndConditions() {
 
           {/* Section 19 */}
           <section>
-            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+            <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
               19. Confidentiality
             </h2>
             <p className="mb-3">
@@ -460,7 +460,7 @@ export default function TermsAndConditions() {
 
           {/* Section 20 */}
           <section>
-            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+            <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
               20. Force Majeure
             </h2>
             <p>
@@ -474,13 +474,13 @@ export default function TermsAndConditions() {
 
           {/* Section 21 */}
           <section>
-            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+            <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
               21. Suspension and Termination
             </h2>
             <p className="mb-2">
               We may suspend or terminate access to services where:
             </p>
-            <ul className="list-disc ml-6 space-y-1 mb-3">
+            <ul className="list-disc ml-5 sm:ml-6 space-y-1 mb-3">
               <li>The client materially breaches these Terms</li>
               <li>Payments remain unpaid</li>
               <li>The service is being used unlawfully</li>
@@ -495,7 +495,7 @@ export default function TermsAndConditions() {
 
           {/* Section 22 */}
           <section>
-            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+            <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
               22. Changes to Services and Terms
             </h2>
             <p className="mb-3">
@@ -511,7 +511,7 @@ export default function TermsAndConditions() {
 
           {/* Section 23 */}
           <section>
-            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+            <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
               23. Governing Law
             </h2>
             <p className="mb-3">
@@ -519,8 +519,8 @@ export default function TermsAndConditions() {
               Terms shall be governed by the laws of India.
             </p>
             <p className="mb-3">
-              Subject to applicable law, courts having jurisdiction in [Noida,
-              Uttar Pradesh, India] shall have jurisdiction over disputes
+              Subject to applicable law, courts having jurisdiction in Noida,
+              Uttar Pradesh, India shall have jurisdiction over disputes
               arising from these Terms.
             </p>
             <p>
@@ -532,7 +532,7 @@ export default function TermsAndConditions() {
 
           {/* Section 24 */}
           <section>
-            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+            <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
               24. Severability
             </h2>
             <p>
@@ -544,7 +544,7 @@ export default function TermsAndConditions() {
 
           {/* Section 25 */}
           <section>
-            <h2 className="text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
+            <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-3 uppercase tracking-tight">
               25. Entire Agreement
             </h2>
             <p className="mb-3">
@@ -560,38 +560,55 @@ export default function TermsAndConditions() {
           </section>
 
           {/* Section 26 - Contact */}
-          <section className="bg-gray-800 text-white p-8 rounded-2xl">
-            <h2 className="text-xl font-bold mb-4 uppercase tracking-wider text-blue-400">
+          <section>
+            <h2>
               26. Contact Us
             </h2>
-            <div className="space-y-4 text-sm">
+            <div>
               <div>
-                <p className="font-bold text-base mb-1">
+                <p>
                   Skky Loom Digital Technology Pvt. Ltd.
                 </p>
-                <p className="font-semibold text-gray-300">
+                <p>
                   Registered/Business Address:
                 </p>
-                <p className="text-gray-200">
+                <p>
                   A39, 2nd Floor, Sector 63, Noida, Uttar Pradesh – 201301,
                   India
                 </p>
               </div>
-              <div className="space-y-1 text-gray-200">
+              <div>
                 <p>
-                  <strong className="text-gray-300">Email:</strong> [
-                  info@moneykingfinancial.com]
+                  <strong className="text-gray-300">Email:</strong>{" "}
+                  <a
+                    href="mailto:info@moneykingfinancial.com"
+                    className="hover:underline text-blue-300 break-all"
+                  >
+                    info@moneykingfinancial.com
+                  </a>
                 </p>
                 <p>
                   <strong className="text-gray-300">Website:</strong>{" "}
-                  [https://www.skkyloomdigital.com/]
+                  <a
+                    href="https://www.skkyloomdigital.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:underline text-blue-300 break-all"
+                  >
+                    https://www.skkyloomdigital.com/
+                  </a>
                 </p>
                 <p>
-                  <strong className="text-gray-300">Phone:</strong> [
-                  9311284229]
+                  <strong className="text-gray-300">Phone:</strong>{" "}
+                  <a
+                    href="tel:+919311284229"
+                    className="hover:underline text-blue-300"
+                  >
+                    +91 9311284229
+                  </a>
                 </p>
               </div>
-              <p className="text-xs text-gray-400 pt-2 border-t border-gray-700">
+              <p className="text-xs text-gray-400 pt-3 border-t border-gray-700">
                 For questions regarding these Terms, please contact us using the
                 details above.
               </p>
@@ -599,16 +616,16 @@ export default function TermsAndConditions() {
           </section>
 
           {/* Copyright */}
-          <div className="pt-4 border-t text-sm text-gray-500 text-center font-medium">
-            © 2026 Skky Loom Digital Technology Pvt. Ltd. All Rights Reserved.
+          <div className="pt-4 border-t text-xs sm:text-sm text-gray-500 text-center font-medium">
+            © {new Date().getFullYear()} Skky Loom Digital Technology Pvt. Ltd. All Rights Reserved.
           </div>
         </div>
 
         {/* Footer Link */}
-        <div className="mt-12 pt-6 border-t text-center">
+        <div className="mt-8 sm:mt-12 pt-6 border-t text-center">
           <Link
             href="/"
-            className="text-blue-600 font-semibold hover:text-blue-800 flex items-center justify-center gap-2 transition-all"
+            className="text-blue-600 font-semibold hover:text-blue-800 inline-flex items-center justify-center gap-2 transition-all text-sm sm:text-base"
           >
             <span>←</span> Back to Home
           </Link>
