@@ -47,8 +47,8 @@ export default function Footer() {
               </p>
               <div className="flex items-center gap-3 hover:text-white transition-colors">
                 <Mail size={18} className="text-[#4DB6AC]" />
-                <a href="mailto:info@moneykingfinancial.com">
-                  info@moneykingfinancial.com
+                <a href="mailto:infoskkyloomdigital.com">
+                  infoskkyloomdigital.com
                 </a>
               </div>
               <div className="flex items-center gap-3 hover:text-white transition-colors">
