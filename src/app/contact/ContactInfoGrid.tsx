@@ -42,7 +42,7 @@ export default function ContactInfoGrid() {
                 EMAIL US
               </p>
               <p className="text-white font-bold text-sm sm:text-base break-all">
-                infoskkyloomdigital.com
+                info@skkyloomdigital.com
               </p>
             </div>
           </div>
