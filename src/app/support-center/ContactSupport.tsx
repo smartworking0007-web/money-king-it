@@ -4,8 +4,8 @@ export default function ContactSupport() {
   const contactMethods = [
     {
       title: "Email",
-      value: "infoskkyloomdigital.com",
-      href: "mailto:infoskkyloomdigital.com",
+      value: "info@skkyloomdigital.com",
+      href: "mailto:info@skkyloomdigital.com",
       icon: Mail,
     },
     {
