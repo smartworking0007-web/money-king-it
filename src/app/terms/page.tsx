@@ -581,9 +581,9 @@ export default function TermsAndConditions() {
                 <p>
                   <strong>Email:</strong>{" "}
                   <a
-                    href="mailto:infoskkyloomdigital.com"
+                    href="mailto:info@skkyloomdigital.com"
                   >
-                    infoskkyloomdigital.com
+                    info@skkyloomdigital.com
                   </a>
                 </p>
                 <p>
